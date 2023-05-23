@@ -9,7 +9,7 @@ public class DAOFactory {
     }
 
     public static DAOFactory getDAOFactory() {
-        if (instance == null {
+        if (instance == null) {
             instance = new DAOFactory();
         }
         return instance;
