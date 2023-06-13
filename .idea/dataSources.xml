@@ -5,6 +5,7 @@
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
+      <schema-control>MANUAL</schema-control>
       <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:$PROJECT_DIR$/db/nursingHomeDB;user=SA;password=SA</jdbc-url>
     </data-source>
