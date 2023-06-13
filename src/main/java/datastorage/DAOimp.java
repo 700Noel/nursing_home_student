@@ -66,4 +66,8 @@ public abstract class DAOimp<T> implements DAO<T>{
     protected abstract String getUpdateStatementString(T t);
 
     protected abstract String getDeleteStatementString(long key);
+
+    public Connection getConn() {
+        return conn;
+    }
 }

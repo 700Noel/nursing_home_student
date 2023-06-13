@@ -13,6 +13,7 @@ public class Patient extends Person {
     private LocalDate dateOfBirth;
     private String careLevel;
     private String roomnumber;
+    private boolean shown;
     private List<Treatment> allTreatments = new ArrayList<Treatment>();
 
     /**
@@ -23,11 +24,12 @@ public class Patient extends Person {
      * @param careLevel
      * @param roomnumber
      */
-    public Patient(String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber) {
+    public Patient(String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber, boolean shown) {
         super(firstName, surname);
         this.dateOfBirth = dateOfBirth;
         this.careLevel = careLevel;
         this.roomnumber = roomnumber;
+        this.shown = shown;
     }
 
     /**
@@ -39,12 +41,13 @@ public class Patient extends Person {
      * @param careLevel
      * @param roomnumber
      */
-    public Patient(long pid, String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber) {
+    public Patient(long pid, String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber, boolean shown) {
         super(firstName, surname);
         this.pid = pid;
         this.dateOfBirth = dateOfBirth;
         this.careLevel = careLevel;
         this.roomnumber = roomnumber;
+        this.shown = shown;
     }
 
     /**
@@ -102,6 +105,14 @@ public class Patient extends Person {
      */
     public void setRoomnumber(String roomnumber) {
         this.roomnumber = roomnumber;
+    }
+
+    public boolean Shown() {
+        return shown;
+    }
+
+    public void setShown(boolean shown) {
+        this.shown = shown;
     }
 
     /**

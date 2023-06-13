@@ -12,6 +12,7 @@ import model.Patient;
 import utils.DateConverter;
 import datastorage.DAOFactory;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -177,6 +178,19 @@ public class AllPatientController {
         }
     }
 
+    @FXML
+    public void handleBlockRow() {
+        Patient selectedItem = this.tableView.getSelectionModel().getSelectedItem();
+        try {
+            selectedItem.setShown(false);
+            dao.update(selectedItem);
+            Statement state = dao.getConn().createStatement();
+            this.tableView.getItems().remove(selectedItem);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * handles a add-click-event. Creates a patient and calls the create method in the {@link PatientDAO}
      */
@@ -189,7 +203,7 @@ public class AllPatientController {
         String carelevel = this.txtCarelevel.getText();
         String room = this.txtRoom.getText();
         try {
-            Patient p = new Patient(firstname, surname, date, carelevel, room);
+            Patient p = new Patient(firstname, surname, date, carelevel, room, true);
             dao.create(p);
         } catch (SQLException e) {
             e.printStackTrace();
