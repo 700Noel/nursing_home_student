@@ -1,6 +1,6 @@
 package controller;
 
-import datastorage.CaretgiverDAO;
+import datastorage.CaregiverDAO;
 import datastorage.DAOFactory;
 import datastorage.PatientDAO;
 import datastorage.TreatmentDAO;
@@ -42,7 +42,7 @@ public class AllCaregiverController {
     TextField txfTelephone;
 
     private ObservableList<Caregiver> tableviewContent = FXCollections.observableArrayList();
-    private CaretgiverDAO dao;
+    private CaregiverDAO dao;
 
     /**
      * Initializes the corresponding fields. Is called as soon as the corresponding FXML file is to be displayed.

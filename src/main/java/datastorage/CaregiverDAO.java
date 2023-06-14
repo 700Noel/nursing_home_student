@@ -7,8 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class CaretgiverDAO extends DAOimp<Caregiver>{
-    public CaretgiverDAO(Connection conn) {
+public class CaregiverDAO extends DAOimp<Caregiver>{
+    public CaregiverDAO(Connection conn) {
         super(conn);
     }
 

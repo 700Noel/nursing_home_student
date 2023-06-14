@@ -11,6 +11,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import model.Caregiver;
 import model.Patient;
 import model.Treatment;
 import datastorage.DAOFactory;
@@ -26,6 +27,8 @@ public class AllTreatmentController {
     private TableColumn<Treatment, Integer> colID;
     @FXML
     private TableColumn<Treatment, Integer> colPid;
+    @FXML
+    private TableColumn<Treatment, Integer> colCid;
     @FXML
     private TableColumn<Treatment, String> colDate;
     @FXML
@@ -47,6 +50,8 @@ public class AllTreatmentController {
     private ObservableList<String> myComboBoxData =
             FXCollections.observableArrayList();
     private ArrayList<Patient> patientList;
+
+    private ArrayList<Caregiver> caregiverList;
     private Main main;
 
     public void initialize() {
@@ -57,12 +62,13 @@ public class AllTreatmentController {
 
         this.colID.setCellValueFactory(new PropertyValueFactory<Treatment, Integer>("tid"));
         this.colPid.setCellValueFactory(new PropertyValueFactory<Treatment, Integer>("pid"));
+        this.colCid.setCellValueFactory(new PropertyValueFactory<Treatment, Integer>("cid"));
         this.colDate.setCellValueFactory(new PropertyValueFactory<Treatment, String>("date"));
         this.colBegin.setCellValueFactory(new PropertyValueFactory<Treatment, String>("begin"));
         this.colEnd.setCellValueFactory(new PropertyValueFactory<Treatment, String>("end"));
         this.colDescription.setCellValueFactory(new PropertyValueFactory<Treatment, String>("description"));
         this.tableView.setItems(this.tableviewContent);
-        createComboBoxData();
+        createComboBoxDataPatient();
     }
 
     public void readAllAndShowInTableView() {
@@ -80,7 +86,7 @@ public class AllTreatmentController {
         }
     }
 
-    private void createComboBoxData(){
+    private void createComboBoxDataPatient(){
         PatientDAO dao = DAOFactory.getDAOFactory().createPatientDAO();
         try {
             patientList = (ArrayList<Patient>) dao.readAll();
@@ -110,7 +116,7 @@ public class AllTreatmentController {
                 e.printStackTrace();
             }
         }
-        Patient patient = searchInList(p);
+        Patient patient = searchInListPatient(p);
         if(patient !=null){
             try {
                 allTreatments = dao.readTreatmentsByPid(patient.getPid());
@@ -123,7 +129,7 @@ public class AllTreatmentController {
         }
     }
 
-    private Patient searchInList(String surname){
+    private Patient searchInListPatient(String surname){
         for (int i =0; i<this.patientList.size();i++){
             if(this.patientList.get(i).getSurname().equals(surname)){
                 return this.patientList.get(i);
@@ -148,7 +154,7 @@ public class AllTreatmentController {
     public void handleNewTreatment() {
         try{
             String p = this.comboBox.getSelectionModel().getSelectedItem();
-            Patient patient = searchInList(p);
+            Patient patient = searchInListPatient(p);
             newTreatmentWindow(patient);
         }
         catch(NullPointerException e){
