@@ -13,9 +13,10 @@ public class Treatment {
     private LocalTime end;
     private String description;
     private String remarks;
+    private boolean shown;
 
     public Treatment(long pid, long cid, LocalDate date, LocalTime begin,
-                     LocalTime end, String description, String remarks) {
+                     LocalTime end, String description, String remarks, boolean shown) {
         this.pid = pid;
         this.cid = cid;
         this.date = date;
@@ -23,10 +24,11 @@ public class Treatment {
         this.end = end;
         this.description = description;
         this.remarks = remarks;
+        this.shown = shown;
     }
 
     public Treatment(long tid, long pid, long cid, LocalDate date, LocalTime begin,
-                     LocalTime end, String description, String remarks) {
+                     LocalTime end, String description, String remarks, boolean shown) {
         this.tid = tid;
         this.pid = pid;
         this.cid = cid;
@@ -35,6 +37,7 @@ public class Treatment {
         this.end = end;
         this.description = description;
         this.remarks = remarks;
+        this.shown = shown;
     }
 
     public long getTid() {
@@ -90,6 +93,14 @@ public class Treatment {
 
     public void setRemarks(String remarks) {
         this.remarks = remarks;
+    }
+
+    public boolean isShown() {
+        return shown;
+    }
+
+    public void setShown(boolean shown) {
+        this.shown = shown;
     }
 
     public String toString() {

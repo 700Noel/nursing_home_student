@@ -9,6 +9,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 import model.Patient;
+import model.Treatment;
 import utils.DateConverter;
 import datastorage.DAOFactory;
 import java.sql.SQLException;
@@ -183,10 +184,16 @@ public class AllPatientController {
      */
     @FXML
     public void handleBlockRow() {
+        TreatmentDAO tDao = DAOFactory.getDAOFactory().createTreatmentDAO();
         Patient selectedItem = this.tableView.getSelectionModel().getSelectedItem();
         try {
+            List<Treatment> treatment = tDao.readTreatmentsByPid(selectedItem.getPid());
             selectedItem.setShown(false);
             dao.update(selectedItem);
+            for (Treatment ActiveTreatment : treatment ) {
+                ActiveTreatment.setShown(false);
+                tDao.update(ActiveTreatment);
+            }
             Statement state = dao.getConn().createStatement();
             this.tableView.getItems().remove(selectedItem);
         } catch (SQLException e) {

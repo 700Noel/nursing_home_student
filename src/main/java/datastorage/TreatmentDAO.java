@@ -19,10 +19,10 @@ public class TreatmentDAO extends DAOimp<Treatment> {
 
     @Override
     protected String getCreateStatementString(Treatment treatment) {
-        return String.format("INSERT INTO treatment (pid, cid, treatment_date, begin, end, description, remarks) VALUES " +
-                "(%d, '%s', '%s', '%s', '%s', '%s', '%s')", treatment.getPid(), treatment.getCid(), treatment.getDate(),
+        return String.format("INSERT INTO treatment (pid, cid, treatment_date, begin, end, description, remarks, show) VALUES " +
+                "(%d, '%s', '%s', '%s', '%s', '%s', '%s', '%s')", treatment.getPid(), treatment.getCid(), treatment.getDate(),
                 treatment.getBegin(), treatment.getEnd(), treatment.getDescription(),
-                treatment.getRemarks());
+                treatment.getRemarks(), true);
     }
 
     @Override
@@ -37,13 +37,13 @@ public class TreatmentDAO extends DAOimp<Treatment> {
         LocalTime end = DateConverter.convertStringToLocalTime(result.getString(5));
         Treatment m = new Treatment(result.getLong(1),result.getLong(2),
                 result.getLong(8), date, begin, end, result.getString(6),
-                result.getString(7));
+                result.getString(7), result.getBoolean(9));
         return m;
     }
 
     @Override
     protected String getReadAllStatementString() {
-        return "SELECT * FROM treatment";
+        return "SELECT * FROM treatment WHERE show = true";
     }
 
     @Override
@@ -56,7 +56,7 @@ public class TreatmentDAO extends DAOimp<Treatment> {
             LocalTime end = DateConverter.convertStringToLocalTime(result.getString(5));
             t = new Treatment(result.getLong(1), result.getLong(2),
                     result.getLong(8), date, begin, end, result.getString(6),
-                    result.getString(7));
+                    result.getString(7), result.getBoolean(9));
             list.add(t);
         }
         return list;
@@ -65,8 +65,8 @@ public class TreatmentDAO extends DAOimp<Treatment> {
     @Override
     protected String getUpdateStatementString(Treatment treatment) {
         return String.format("UPDATE treatment SET pid = %d, cid = %d, treatment_date ='%s', begin = '%s', end = '%s'," +
-                "description = '%s', remarks = '%s' WHERE tid = %d", treatment.getPid(), treatment.getCid(), treatment.getDate(),
-                treatment.getBegin(), treatment.getEnd(), treatment.getDescription(), treatment.getRemarks(),
+                "description = '%s', remarks = '%s', show = '%s' WHERE tid = %d", treatment.getPid(), treatment.getCid(), treatment.getDate(),
+                treatment.getBegin(), treatment.getEnd(), treatment.getDescription(), treatment.getRemarks(), treatment.isShown(),
                 treatment.getTid());
     }
 

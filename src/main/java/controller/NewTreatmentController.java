@@ -127,7 +127,7 @@ public class NewTreatmentController {
             String c = this.comboBox.getSelectionModel().getSelectedItem();
             Caregiver caregiver = searchInListCaregiver(c);
             Treatment treatment = new Treatment(patient.getPid(), caregiver.getId(), date,
-                    begin, end, description, remarks);
+                    begin, end, description, remarks, true);
             createTreatment(treatment);
             controller.readAllAndShowInTableView();
             stage.close();
@@ -146,6 +146,21 @@ public class NewTreatmentController {
         TreatmentDAO dao = DAOFactory.getDAOFactory().createTreatmentDAO();
         try {
             dao.create(treatment);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     *  handles a block-click-event. Changes the shown variable of the patient in the database to indicate if this caregiver should be shown
+     */
+    @FXML
+    public void handleBlockRow() {
+        Treatment selectedItem = this.tableView.getSelectionModel().getSelectedItem();
+        try {
+            selectedItem.setShown(false);
+            dao.update(selectedItem);
+            this.tableView.getItems().remove(selectedItem);
         } catch (SQLException e) {
             e.printStackTrace();
         }
