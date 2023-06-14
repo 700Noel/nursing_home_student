@@ -39,7 +39,7 @@ public class PatientDAO extends DAOimp<Patient> {
      */
     @Override
     protected String getReadByIDStatementString(long key) {
-        return String.format("SELECT * FROM patient WHERE pid = %d", key);
+        return String.format("SELECT * FROM patient WHERE pid = %d AND SHOW = TRUE", key);
     }
 
     /**
@@ -53,7 +53,7 @@ public class PatientDAO extends DAOimp<Patient> {
         LocalDate date = DateConverter.convertStringToLocalDate(result.getString(4));
         p = new Patient(result.getInt(1), result.getString(2),
                 result.getString(3), date, result.getString(5),
-                result.getString(6));
+                result.getString(6), result.getBoolean(7));
         return p;
     }
 
@@ -63,7 +63,7 @@ public class PatientDAO extends DAOimp<Patient> {
      */
     @Override
     protected String getReadAllStatementString() {
-        return "SELECT * FROM patient";
+        return "SELECT * FROM patient WHERE SHOW = TRUE";
     }
 
     /**
@@ -79,7 +79,7 @@ public class PatientDAO extends DAOimp<Patient> {
             LocalDate date = DateConverter.convertStringToLocalDate(result.getString(4));
             p = new Patient(result.getInt(1), result.getString(2),
                     result.getString(3), date,
-                    result.getString(5), result.getString(6));
+                    result.getString(5), result.getString(6), result.getBoolean(7));
             list.add(p);
         }
         return list;
@@ -93,8 +93,8 @@ public class PatientDAO extends DAOimp<Patient> {
     @Override
     protected String getUpdateStatementString(Patient patient) {
         return String.format("UPDATE patient SET firstname = '%s', surname = '%s', dateOfBirth = '%s', carelevel = '%s', " +
-                "roomnumber = '%s' WHERE pid = %d", patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(),
-                patient.getCareLevel(), patient.getRoomnumber(), patient.getPid());
+                "roomnumber = '%s', show = '%s' WHERE pid = %d", patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(),
+                patient.getCareLevel(), patient.getRoomnumber(), patient.Shown(),patient.getPid());
     }
 
     /**
