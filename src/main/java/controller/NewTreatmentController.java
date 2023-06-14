@@ -151,21 +151,6 @@ public class NewTreatmentController {
         }
     }
 
-    /**
-     *  handles a block-click-event. Changes the shown variable of the patient in the database to indicate if this caregiver should be shown
-     */
-    @FXML
-    public void handleBlockRow() {
-        Treatment selectedItem = this.tableView.getSelectionModel().getSelectedItem();
-        try {
-            selectedItem.setShown(false);
-            dao.update(selectedItem);
-            this.tableView.getItems().remove(selectedItem);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-
     @FXML
     public void handleCancel(){
         stage.close();

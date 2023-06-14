@@ -4,6 +4,7 @@ import datastorage.PatientDAO;
 import datastorage.TreatmentDAO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -214,6 +215,21 @@ public class AllTreatmentController {
             stage.showAndWait();
         } catch (IOException e) {
             // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     *  handles a block-click-event. Changes the shown variable of the patient in the database to indicate if this caregiver should be shown
+     */
+    @FXML
+    public void handleBlockRow() {
+        Treatment selectedItem = this.tableView.getSelectionModel().getSelectedItem();
+        try {
+            selectedItem.setShown(false);
+            dao.update(selectedItem);
+            this.tableView.getItems().remove(selectedItem);
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
