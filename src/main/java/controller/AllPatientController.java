@@ -202,6 +202,7 @@ public class AllPatientController {
         LocalDate date = DateConverter.convertStringToLocalDate(birthday);
         String carelevel = this.txtCarelevel.getText();
         String room = this.txtRoom.getText();
+        if(surname.equals("") || firstname.equals("") || birthday.equals("") || carelevel.equals("") || room.equals(""))
         try {
             Patient p = new Patient(firstname, surname, date, carelevel, room, true);
             dao.create(p);

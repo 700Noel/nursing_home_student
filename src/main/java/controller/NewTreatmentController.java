@@ -120,6 +120,9 @@ public class NewTreatmentController {
         LocalTime end = DateConverter.convertStringToLocalTime(txtEnd.getText());
         String description = txtDescription.getText();
         String remarks = taRemarks.getText();
+        if(date == null || description.equals("") || remarks.equals("")) {
+            return;
+        }
         try{
             String c = this.comboBox.getSelectionModel().getSelectedItem();
             Caregiver caregiver = searchInListCaregiver(c);

@@ -47,11 +47,11 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 
 ## Technische Hinweise zur Datenbank
 
-- Benutzername: SA
-- Passwort: SA
+- Benutzername: Admin
+- Passwort: 1234
 - Bitte nicht in die Datenbank schauen, während die Applikation läuft. Das sorgt leider für einen Lock, der erst wieder verschwindet, wenn IntelliJ neugestartet wird!
 
-## Benutzername und Passwort für das Login
+## Vermögensstand aus der Datenbank entfernen
 
 
 | Test |  |
@@ -59,3 +59,20 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 | Alle Patienten anzeigen | erfolgreich |
 | Patientendaten lassen sich noch ändern | erfolgreich |
 | Patient anlegen | erfolgreich |
+
+## Login Frontend und backend für die Datenbank implementieren
+
+| Test |  |
+|------|-------------|
+| Aufrufen des Login-Fensters | erfolgreich |
+| Test-Login mit falschen Daten | erfolgreich |
+| Test-Login mit richtigen Daten | erfolgreich |
+
+## Vermögensstand aus der Datenbank entfernen
+
+| Test |  |
+|------|-------------|
+| Pflgertabelle anzeigen | erfolgreich |
+| Speichern eines neuen Pflegers | erfolgreich |
+| Speichern unzureichender Pflege Daten | erfolgreich |
+| Auswählen von Pflegern beim erstellen neuer Behandlungen | erfolgreich |

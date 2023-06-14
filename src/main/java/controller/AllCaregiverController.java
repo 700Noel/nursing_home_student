@@ -150,6 +150,9 @@ public class AllCaregiverController {
         String surname = this.txfSurname.getText();
         String firstname = this.txfFirstname.getText();
         String telephone = this.txfTelephone.getText();
+        if(telephone.equals("") || firstname.equals("") || surname.equals("")) {
+            return;
+        }
         try {
             Caregiver caregiver = new Caregiver(firstname, surname, telephone);
             dao.create(caregiver);
