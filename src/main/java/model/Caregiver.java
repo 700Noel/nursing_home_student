@@ -7,16 +7,20 @@ public class Caregiver extends Person{
 
     private long id;
     private String telephone;
+
+    private boolean shown;
     private List<Treatment> allTreatments = new ArrayList<Treatment>();
-    public Caregiver(String firstName, String surname, String telephone) {
+    public Caregiver(String firstName, String surname, String telephone, boolean shown) {
         super(firstName, surname);
         this.telephone = telephone;
+        this.shown = shown;
     }
 
-    public Caregiver(long id, String firstName, String surname, String telephone) {
+    public Caregiver(long id, String firstName, String surname, String telephone, boolean shown) {
         super(firstName, surname);
         this.id = id;
         this.telephone = telephone;
+        this.shown = shown;
     }
 
     public long getId() {
@@ -29,6 +33,14 @@ public class Caregiver extends Person{
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    public boolean isShown() {
+        return shown;
+    }
+
+    public void setShown(boolean shown) {
+        this.shown = shown;
     }
 
     public boolean add(Treatment m) {

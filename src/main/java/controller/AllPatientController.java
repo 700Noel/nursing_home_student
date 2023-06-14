@@ -178,6 +178,9 @@ public class AllPatientController {
         }
     }
 
+    /**
+     *  handles a block-click-event. Changes the shown variable of the patient in the database to indicate if this patient should be shown
+     */
     @FXML
     public void handleBlockRow() {
         Patient selectedItem = this.tableView.getSelectionModel().getSelectedItem();

@@ -23,6 +23,9 @@ public class LoginWindowController {
     @FXML
     TextField txtPassword;
 
+    /**
+     *  handles a login-click-event. Checks the user credentials and changes the window to the main view if the credentials are correct else wise shows an alert
+     */
     @FXML
     private void handleLogin(ActionEvent e) {
         UserManager.getInstance().Login(txtUsername.getText(), txtPassword.getText());

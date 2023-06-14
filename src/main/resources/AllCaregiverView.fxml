@@ -25,6 +25,7 @@
             <TextField fx:id="txfTelephone" prefWidth="160.0" promptText="Telefonnummer" />
             <Button fx:id="btnAdd" onAction="#handleAdd" mnemonicParsing="false" prefWidth="90.0" text="Hinzufügen" />
             <Button fx:id="btnDelete" onAction="#handleDeleteRow" mnemonicParsing="false" prefWidth="90.0" text="Löschen" />
+             <Button fx:id="btnBlock" mnemonicParsing="false" onAction="#handleBlockRow" prefWidth="90.0" text="Blockieren" />
          </children></HBox>
       <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefWidth="200.0" spacing="25.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
          <children>

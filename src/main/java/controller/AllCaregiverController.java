@@ -14,8 +14,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 import model.Caregiver;
+import model.Patient;
 
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 public class AllCaregiverController {
@@ -127,6 +129,21 @@ public class AllCaregiverController {
     }
 
     /**
+     *  handles a block-click-event. Changes the shown variable of the patient in the database to indicate if this caregiver should be shown
+     */
+    @FXML
+    public void handleBlockRow() {
+        Caregiver selectedItem = this.tableView.getSelectionModel().getSelectedItem();
+        try {
+            selectedItem.setShown(false);
+            dao.update(selectedItem);
+            this.tableView.getItems().remove(selectedItem);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
      * handles a delete-click-event. Calls the delete methods in the {@link PatientDAO} and {@link TreatmentDAO}
      */
     @FXML
@@ -154,7 +171,7 @@ public class AllCaregiverController {
             return;
         }
         try {
-            Caregiver caregiver = new Caregiver(firstname, surname, telephone);
+            Caregiver caregiver = new Caregiver(firstname, surname, telephone, true);
             dao.create(caregiver);
         } catch (SQLException e) {
             e.printStackTrace();

@@ -14,26 +14,26 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
 
     @Override
     protected String getCreateStatementString(Caregiver caregiver) {
-        return String.format("INSERT INTO caregiver (firstname, surname, telephone) VALUES ('%s', '%s', '%s')",
-                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone());
+        return String.format("INSERT INTO caregiver (firstname, surname, telephone, show) VALUES ('%s', '%s', '%s', '%s')",
+                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), true);
     }
 
     @Override
     protected String getReadByIDStatementString(long key) {
-        return String.format("SELECT * FROM caregiver WHERE id = %d", key);
+        return String.format("SELECT * FROM caregiver WHERE id = %d AND show = true", key);
     }
 
     @Override
     protected Caregiver getInstanceFromResultSet(ResultSet result) throws SQLException {
         Caregiver caregiver = null;
         caregiver = new Caregiver(result.getInt(1), result.getString(2),
-                result.getString(3), result.getString(4));
+                result.getString(3), result.getString(4), result.getBoolean(5));
         return caregiver;
     }
 
     @Override
     protected String getReadAllStatementString() {
-        return "SELECT * FROM caregiver";
+        return "SELECT * FROM caregiver WHERE show = true";
     }
 
     @Override
@@ -42,7 +42,7 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
         Caregiver caregiver = null;
         while (result.next()) {
             caregiver = new Caregiver(result.getInt(1), result.getString(2),
-                    result.getString(3), result.getString(4));
+                    result.getString(3), result.getString(4), result.getBoolean(5));
             list.add(caregiver);
         }
         return list;
@@ -50,8 +50,8 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
 
     @Override
     protected String getUpdateStatementString(Caregiver caregiver) {
-        return String.format("UPDATE caregiver SET firstname = '%s', surname = '%s', telephone = '%s' WHERE id = %d",
-                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), caregiver.getId());
+        return String.format("UPDATE caregiver SET firstname = '%s', surname = '%s', telephone = '%s', SHOW = '%s' WHERE id = %d",
+                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), caregiver.isShown(), caregiver.getId());
     }
 
     @Override
