@@ -22,6 +22,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The <code>AllTreatmentController</code> contains the entire logic of the all treatment view. It determines which data is displayed and how to react to events.
+ */
 public class AllTreatmentController {
     @FXML
     private TableView<Treatment> tableView;
@@ -56,6 +59,9 @@ public class AllTreatmentController {
     private ArrayList<Caregiver> caregiverList;
     private Main main;
 
+    /**
+     * Initializes the corresponding fields. Is called as soon as the corresponding FXML file is to be displayed.
+     */
     public void initialize() {
         readAllAndShowInTableView();
         comboBox.setItems(myComboBoxData);
@@ -80,6 +86,9 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * calls readAll in {@link TreatmentDAO} and shows treatments in the table
+     */
     public void readAllAndShowInTableView() {
         this.tableviewContent.clear();
         comboBox.getSelectionModel().select(0);
@@ -95,6 +104,10 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * Sets Data that will be show when clicked on ComboBox.
+     * Does not show treatments from blocked patients.
+     */
     private void createComboBoxDataPatient(){
         PatientDAO dao = DAOFactory.getDAOFactory().createPatientDAO();
         try {
@@ -109,6 +122,9 @@ public class AllTreatmentController {
     }
 
 
+    /**
+     * handles which treatments will be shown according to the selected patient
+     */
     @FXML
     public void handleComboBox(){
         String p = this.comboBox.getSelectionModel().getSelectedItem();
@@ -138,6 +154,11 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * Goes through List of all patients.
+     * @param surname String which all patients will be evaluated with
+     * @return patient with the corresponding surname.
+     */
     private Patient searchInListPatient(String surname){
         for (int i =0; i<this.patientList.size();i++){
             if(this.patientList.get(i).getSurname().equals(surname)){
@@ -147,6 +168,9 @@ public class AllTreatmentController {
         return null;
     }
 
+    /**
+     * handles a delete-click-event. Calls the delete methods in the {@link TreatmentDAO}
+     */
     @FXML
     public void handleDelete(){
         int index = this.tableView.getSelectionModel().getSelectedIndex();
@@ -159,6 +183,10 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * handles a new-treatment-click-event.
+     * Saves selected patient and calls the create newTreatmentWindow method with the selected patient
+     */
     @FXML
     public void handleNewTreatment() {
         try{
@@ -175,6 +203,9 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * handles double mouse-click-event on treatments. Calls method treatmentWindow with clicked treatment
+     */
     @FXML
     public void handleMouseClick(){
         tableView.setOnMouseClicked(event -> {
@@ -187,6 +218,11 @@ public class AllTreatmentController {
         });
     }
 
+    /**
+     * loads NewTreatmentView and sets it as the current scene.
+     * Calls initialize in the {@link NewTreatmentController}
+     * @param patient patient which gets passed to the NewTreatmentController
+     */
     public void newTreatmentWindow(Patient patient){
         try {
             FXMLLoader loader = new FXMLLoader(Main.class.getResource("/NewTreatmentView.fxml"));
@@ -207,6 +243,11 @@ public class AllTreatmentController {
         }
     }
 
+    /**
+     * loads TreatmentView and sets it as the current scene.
+     * Calls initializeContoller in the {@link TreatmentController}
+     * @param treatment treatment which gets passed to the TreatmentController
+     */
     public void treatmentWindow(Treatment treatment){
         try {
             FXMLLoader loader = new FXMLLoader(Main.class.getResource("/TreatmentView.fxml"));

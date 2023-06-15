@@ -18,6 +18,9 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The <code>NewTreatmentController</code> contains the entire logic of the new treatment view. It determines which data is displayed and how to react to events.
+ */
 public class NewTreatmentController {
     @FXML
     private TableView<Treatment> tableView;
@@ -48,6 +51,9 @@ public class NewTreatmentController {
     private Patient patient;
     private Stage stage;
 
+    /**
+     * Initializes the corresponding fields. Is called when clicked on btnNewTreatment.
+     */
     public void initialize(AllTreatmentController controller, Stage stage, Patient patient) {
         this.controller= controller;
         this.patient = patient;
@@ -57,11 +63,17 @@ public class NewTreatmentController {
         showPatientData();
     }
 
+    /**
+     * Sets full name of the Patient, to be shown in the new Window.
+     */
     private void showPatientData(){
         this.lblFirstname.setText(patient.getFirstName());
         this.lblSurname.setText(patient.getSurname());
     }
 
+    /**
+     * Sets Data that will be show when clicked on ComboBox.
+     */
     private void createComboBoxDataCaregiver(){
         CaregiverDAO dao = DAOFactory.getDAOFactory().createCaregiverDAO();
         try {
@@ -74,35 +86,12 @@ public class NewTreatmentController {
         }
     }
 
-    @FXML
-    public void handleComboBox(){
-        String c = this.comboBox.getSelectionModel().getSelectedItem();
-        this.tableviewContent.clear();
-        this.dao = DAOFactory.getDAOFactory().createTreatmentDAO();
-        List<Treatment> allTreatments;
-        if(c.equals("alle")){
-            try {
-                allTreatments= this.dao.readAll();
-                for (Treatment treatment : allTreatments) {
-                    this.tableviewContent.add(treatment);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        Caregiver caregiver = searchInListCaregiver(c);
-        if(caregiver !=null){
-            try {
-                allTreatments = dao.readTreatmentsByPid(caregiver.getId());
-                for (Treatment treatment : allTreatments) {
-                    this.tableviewContent.add(treatment);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 
+    /**
+     * Goes through List of all Caregivers.
+     * @param surname String which all caregivers will be evaluated with
+     * @return caregiver with the corresponding surname.
+     */
     private Caregiver searchInListCaregiver(String surname){
         for (int i =0; i<this.caregiverList.size();i++){
             if(this.caregiverList.get(i).getSurname().equals(surname)){
@@ -112,6 +101,9 @@ public class NewTreatmentController {
         return null;
     }
 
+    /**
+     * handles an add-click-event. Takes in necessary data and calls createTreatment method
+     */
     @FXML
     public void handleAdd(){
         LocalDate date = this.datepicker.getValue();
@@ -120,7 +112,7 @@ public class NewTreatmentController {
         LocalTime end = DateConverter.convertStringToLocalTime(txtEnd.getText());
         String description = txtDescription.getText();
         String remarks = taRemarks.getText();
-        if(date == null || description.equals("") || remarks.equals("")) {
+        if(description.equals("")) {
             return;
         }
         try{
@@ -142,6 +134,11 @@ public class NewTreatmentController {
 
     }
 
+
+    /**
+     * Creates a treatment and calls the create method in the {@link TreatmentDAO}
+     * @param treatment treatment which will be created in the dao
+     */
     private void createTreatment(Treatment treatment) {
         TreatmentDAO dao = DAOFactory.getDAOFactory().createTreatmentDAO();
         try {
@@ -151,6 +148,9 @@ public class NewTreatmentController {
         }
     }
 
+    /**
+     * handles a cancel-click-event. Closes the window
+     */
     @FXML
     public void handleCancel(){
         stage.close();

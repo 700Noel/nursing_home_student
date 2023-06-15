@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class PatientDAO extends DAOimp<Patient> {
 
     /**
-     * constructs Onbject. Calls the Constructor from <code>DAOImp</code> to store the connection.
+     * constructs Object. Calls the Constructor from <code>DAOImp</code> to store the connection.
      * @param conn
      */
     public PatientDAO(Connection conn) {
@@ -39,7 +39,7 @@ public class PatientDAO extends DAOimp<Patient> {
 
     /**
      * generates a <code>select</code>-Statement for a given key
-     * @param key for which a specific SELECTis to be created
+     * @param key for which a specific SELECT is to be created
      * @return <code>String</code> with the generated SQL.
      */
     @Override
@@ -71,6 +71,10 @@ public class PatientDAO extends DAOimp<Patient> {
         return "SELECT * FROM patient";
     }
 
+    /**
+     * generates a <code>SELECT</code>-Statement for all patients, where the show variable is true.
+     * @return <code>String</code> with the generated SQL.
+     */
     @Override
     protected String getReadAllUnblockedStatementString() {
         return "SELECT * FROM patient WHERE SHOW = TRUE";

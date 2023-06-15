@@ -16,12 +16,19 @@ public class Main extends Application {
 
     private Stage primaryStage;
 
+    /**
+     * starts the application, sets the primaryStage and class the mainWindow method
+     * @param primaryStage primaryStage which sets the primaryStage in the class
+     */
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         mainWindow();
     }
 
+    /**
+     * loads LoginWindowView and sets it as the current scene.
+     */
     public void mainWindow() {
         try {
             FXMLLoader loader = new FXMLLoader(Main.class.getResource("/LoginWindowView.fxml"));

@@ -4,9 +4,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * creates a connection between the front-end and the back-end.
+ */
 public class ConnectionBuilder {
     private static Connection conn;
 
+
+    /**
+     * creates connection to back-end
+     */
     private ConnectionBuilder() {
         try {
             Class.forName("org.hsqldb.jdbc.JDBCDriver");
@@ -22,6 +29,10 @@ public class ConnectionBuilder {
         }
     }
 
+    /**
+     * when no Connection has been made, initializes a new ConnectionBuilder
+     * @return Connection
+     */
     public static Connection getConnection() {
         if (conn == null) {
             new ConnectionBuilder();
@@ -29,6 +40,9 @@ public class ConnectionBuilder {
         return conn;
     }
 
+    /**
+     * closes connection to application
+     */
     public static void closeConnection() {
         try {
             if(conn != null){

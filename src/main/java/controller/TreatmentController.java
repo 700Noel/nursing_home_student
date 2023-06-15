@@ -14,6 +14,9 @@ import utils.DateConverter;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
+/**
+ * The <code>TreatmentController</code> contains the entire logic of the treatment view. It determines which data is displayed and how to react to events.
+ */
 public class TreatmentController {
     @FXML
     private Label lblPatientName;
@@ -42,6 +45,12 @@ public class TreatmentController {
     private Caregiver caregiver;
     private Treatment treatment;
 
+    /**
+     * Initializes the corresponding fields. Is called as soon as the corresponding FXML file is to be displayed.
+     * @param controller saves the controller of the original AllTreatmentController to later display the changes there
+     * @param stage the stage initialized in the AllTreatmentController
+     * @param treatment treatment, which needs to be displayed
+     */
     public void initializeController(AllTreatmentController controller, Stage stage, Treatment treatment) {
         this.stage = stage;
         this.controller= controller;
@@ -57,6 +66,9 @@ public class TreatmentController {
         }
     }
 
+    /**
+     * displays full name of the patient and caregiver and full data of the treatment
+     */
     private void showData(){
         this.lblPatientName.setText(patient.getSurname()+", "+patient.getFirstName());
         this.lblCaregiverName.setText(caregiver.getSurname()+", "+caregiver.getFirstName());
@@ -69,6 +81,10 @@ public class TreatmentController {
         this.taRemarks.setText(this.treatment.getRemarks());
     }
 
+    /**
+     * handle changes made in the treatment fields, calls the doUpdate method, calls the readAllAndShowInTableView in the {@link AllTreatmentController}
+     * and closes the window
+     */
     @FXML
     public void handleChange(){
         this.treatment.setDate(this.datepicker.getValue().toString());
@@ -81,6 +97,9 @@ public class TreatmentController {
         stage.close();
     }
 
+    /**
+     * Calls the update method in the {@link TreatmentDAO}, with the new treatment data
+     */
     private void doUpdate(){
         TreatmentDAO dao = DAOFactory.getDAOFactory().createTreatmentDAO();
         try {
@@ -90,6 +109,9 @@ public class TreatmentController {
         }
     }
 
+    /**
+     * closes window
+     */
     @FXML
     public void handleCancel(){
         stage.close();

@@ -12,6 +12,9 @@ import utils.Sha256;
 
 import java.io.IOException;
 
+/**
+ * The <code>LoginWindowController</code> contains the entire logic of the login view. It determines which data is displayed and how to react to events.
+ */
 public class LoginWindowController {
 
     @FXML
@@ -24,7 +27,8 @@ public class LoginWindowController {
     TextField txtPassword;
 
     /**
-     *  handles a login-click-event. Checks the user credentials and changes the window to the main view if the credentials are correct else wise shows an alert
+     *  handles a login-click-event. Checks the user credentials and changes the window to the main view if the credentials are correct else wise shows an alert.
+     *  On successful login loads the MainWindowView
      */
     @FXML
     private void handleLogin(ActionEvent e) {

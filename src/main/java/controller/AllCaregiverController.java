@@ -20,6 +20,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
+/**
+ * The <code>AllCaregiverController</code> contains the entire logic of the caregiver view. It determines which data is displayed and how to react to events.
+ */
 public class AllCaregiverController {
     @FXML
     private TableView<Caregiver> tableView;
@@ -107,8 +110,8 @@ public class AllCaregiverController {
     }
 
     /**
-     * updates a patient by calling the update-Method in the {@link PatientDAO}
-     * @param t row to be updated by the user (includes the patient)
+     * updates a caregiver by calling the update-Method in the {@link CaregiverDAO}
+     * @param t row to be updated by the user (includes the caregiver)
      */
     private void doUpdate(TableColumn.CellEditEvent<Caregiver, String> t) {
         try {
@@ -119,7 +122,7 @@ public class AllCaregiverController {
     }
 
     /**
-     * calls readAll in {@link PatientDAO} and shows patients in the table
+     * calls readAll in {@link CaregiverDAO} and shows patients in the table
      */
     private void readAllAndShowInTableView() {
         this.tableviewContent.clear();
@@ -167,7 +170,7 @@ public class AllCaregiverController {
     }
 
     /**
-     * handles a add-click-event. Creates a patient and calls the create method in the {@link PatientDAO}
+     * handles an add-click-event. Creates a patient and calls the create method in the {@link CaregiverDAO}
      */
     @FXML
     public void handleAdd() {

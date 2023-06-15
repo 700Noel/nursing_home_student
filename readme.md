@@ -68,7 +68,15 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 | Test-Login mit falschen Daten | erfolgreich |
 | Test-Login mit richtigen Daten | erfolgreich |
 
-## Vermögensstand aus der Datenbank entfernen
+## Sperren von Daten und automatisches löschen nach 10 Jahren 
+
+| Test |  |
+|------|-------------|
+| Sperren von Daten | erfolgreich |
+| Sperren von personenbezogenen Daten | erfolgreich |
+| Löschen von Daten nach 10 Jahren | erfolgreich |
+
+## Pfleger in Datenbank erstellt
 
 | Test |  |
 |------|-------------|
@@ -76,3 +84,9 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 | Speichern eines neuen Pflegers | erfolgreich |
 | Speichern unzureichender Pflege Daten | erfolgreich |
 | Auswählen von Pflegern beim erstellen neuer Behandlungen | erfolgreich |
+| Pfleger können gesperrt werden | erfolgreich |
+| Löschen von Daten nach 10 Jahren | erfolgreich |
+
+## Zusatzaufgabe: Daten auslesen
+
+Aufgrund von fehlender Zeit nicht implementiert
