@@ -67,6 +67,13 @@ public class AllCaregiverController {
 
         //Anzeigen der Daten
         this.tableView.setItems(this.tableviewContent);
+
+        try {
+            Statement statement = dao.getConn().createStatement();
+            statement.executeQuery("DELETE FROM caregiver WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -10, CURRENT_DATE);");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**

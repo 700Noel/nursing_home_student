@@ -18,6 +18,7 @@ import model.Treatment;
 import datastorage.DAOFactory;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,6 +71,13 @@ public class AllTreatmentController {
         this.colDescription.setCellValueFactory(new PropertyValueFactory<Treatment, String>("description"));
         this.tableView.setItems(this.tableviewContent);
         createComboBoxDataPatient();
+
+        try {
+            Statement statement = dao.getConn().createStatement();
+            statement.executeQuery("DELETE FROM treatment WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -10, CURRENT_DATE);");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void readAllAndShowInTableView() {
