@@ -1,0 +1,24 @@
+digraph "controller.TreatmentController"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="controller.TreatmentController",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controller" ,fontname="Helvetica"];
+  Node2 [label="controller.AllTreatmentController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_all_treatment_controller.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dao" ,fontname="Helvetica"];
+  Node3 [label="datastorage.TreatmentDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_treatment_d_a_o.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.DAOimp\l\< Treatment \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_d_a_oimp.html",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" main" ,fontname="Helvetica"];
+  Node5 [label="controller.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_main.html",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patient" ,fontname="Helvetica"];
+  Node6 [label="model.Patient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_patient.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="model.Person",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_person.html",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" caregiver" ,fontname="Helvetica"];
+  Node8 [label="model.Caregiver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_caregiver.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" treatment" ,fontname="Helvetica"];
+  Node9 [label="model.Treatment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html",tooltip=" "];
+}

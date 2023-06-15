@@ -1,0 +1,22 @@
+digraph "datastorage.TreatmentDAO.getCreateStatementString"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="datastorage.TreatmentDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="model.Treatment.getBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#ab57cf69c426a78ee03f48703c812c730",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="model.Treatment.getCid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#a6cde93938d40a80388fc3f22e5dd2ddd",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="model.Treatment.getDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#acb89a4cc6debb2c0fd1f497f3dd27834",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="model.Treatment.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#a68890c4871d37a733869051a30800d8c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="model.Treatment.getEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#a818867c5bbe5e15ef69f17a28449403b",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="model.Treatment.getPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#a18cf306e491c358d6f3a8672be58fa45",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="model.Treatment.getRemarks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_treatment.html#acd028e914470a14adb23a2f4020a96b8",tooltip=" "];
+}

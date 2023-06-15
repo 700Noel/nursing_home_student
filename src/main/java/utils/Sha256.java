@@ -4,6 +4,13 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Sha256 {
+
+    /**
+     * Performs a Sha-256 hashing algorithm on the password using the username and the password itself
+     * @param password
+     * @param username
+     * @return Hashed data
+     */
     public static String getSecurePassword(String password, String username) {
 
         String generatedPassword = null;

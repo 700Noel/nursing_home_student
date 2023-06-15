@@ -1,0 +1,12 @@
+digraph "model.Caregiver.getTelephone"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="model.Caregiver.getTelephone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.CaregiverDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_caregiver_d_a_o.html#a80844e35f12ca42ed8d4db7487e065cb",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.CaregiverDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_caregiver_d_a_o.html#adb4ac67ab60d0bc6325da8ff668bbc3f",tooltip=" "];
+}

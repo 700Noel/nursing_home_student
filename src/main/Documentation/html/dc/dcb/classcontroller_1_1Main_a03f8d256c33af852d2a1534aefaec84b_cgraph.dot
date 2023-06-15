@@ -1,0 +1,12 @@
+digraph "controller.Main.start"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.Main.start",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="starts the application, sets the primaryStage and class the mainWindow method"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.Main.mainWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dcb/classcontroller_1_1Main.html#a63119906ad578b75a2fe9a94e43387eb",tooltip="loads LoginWindowView and sets it as the current scene."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.ConnectionBuilder.close\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a21fdc61dd22d9ef75de2ee279aa01388",tooltip="closes connection to application"];
+}

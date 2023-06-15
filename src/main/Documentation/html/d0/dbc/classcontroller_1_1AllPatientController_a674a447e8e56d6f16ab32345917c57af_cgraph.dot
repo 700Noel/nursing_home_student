@@ -1,0 +1,28 @@
+digraph "controller.AllPatientController.initialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.AllPatientController.initialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes the corresponding fields."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.DAOimp.getConn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a7cba120c50eff4cac29dfc5605841e74",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.AllPatientController.read\lAllAndShowInTableView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/classcontroller_1_1AllPatientController.html#ad1203621e0a4c54b48ee6d7299f145e3",tooltip="calls readAll in PatientDAO and shows patients in the table"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.DAOFactory.create\lPatientDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#abfd67b61c9fd5dc63362422bc30ca5e3",tooltip="creates a new instance of the PatientDAO"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.ConnectionBuilder.get\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a217c33442528663e5d3199ade7c19ed1",tooltip="when no Connection has been made, initializes a new ConnectionBuilder"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="datastorage.ConnectionBuilder.\lConnectionBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a9af3a7f1e527e35fae23c4e06e6494e7",tooltip="creates connection to back-end"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="datastorage.DAOFactory.get\lDAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a489d0947d5e2601ff8617b5e45cbea12",tooltip="Singleton which instantiates a new Object of this class if none already exists."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="datastorage.DAOFactory.DAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#ad381ed774680f7634e4d4ef879b039ae",tooltip="privater constructor to prevent free initializing of a new object"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="datastorage.DAOimp.readAll\lUnblocked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a62348aba3d586903f2d54d6bd3973338",tooltip="calls getReadAllUnblockedStatementString method and makes a new list of objects out of the result"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="datastorage.DAOimp.getList\lFromResultSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a1f0fcbb5b757af15b198c1d52fc0158b",tooltip=" "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="datastorage.DAOimp.getRead\lAllUnblockedStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a3878f193969ec84b41892041a635d1a1",tooltip=" "];
+}

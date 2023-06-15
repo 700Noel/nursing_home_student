@@ -1,0 +1,36 @@
+digraph "controller.AllPatientController.handleBlockRow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.AllPatientController.handle\lBlockRow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="handles a block-click-event."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.DAOFactory.create\lTreatmentDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a0df05e282b9c6c3e904c8a25457ec956",tooltip="creates a new instance of the TreatmentDAO"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.ConnectionBuilder.get\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a217c33442528663e5d3199ade7c19ed1",tooltip="when no Connection has been made, initializes a new ConnectionBuilder"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.ConnectionBuilder.\lConnectionBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a9af3a7f1e527e35fae23c4e06e6494e7",tooltip="creates connection to back-end"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.DAOFactory.get\lDAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a489d0947d5e2601ff8617b5e45cbea12",tooltip="Singleton which instantiates a new Object of this class if none already exists."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="datastorage.DAOFactory.DAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#ad381ed774680f7634e4d4ef879b039ae",tooltip="privater constructor to prevent free initializing of a new object"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="model.Patient.getPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a82727c76e72f2f9694a881d77714cb6e",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="datastorage.TreatmentDAO.read\lTreatmentsByPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d80/classdatastorage_1_1TreatmentDAO.html#a0e7792b40f6d0abd3fe66e48fec632d5",tooltip="calls getReadAllTreatmentsOfOnePatientByPid method, with given pid"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="datastorage.TreatmentDAO.get\lListFromResultSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d80/classdatastorage_1_1TreatmentDAO.html#a28f1b34ed22236e03887a08f2ca59363",tooltip="maps a ResultSet to a Treatment-List"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="utils.DateConverter.convert\lStringToLocalDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d85/classutils_1_1DateConverter.html#a1cf1a44e9c92819eea72a43f9551241f",tooltip=" "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="utils.DateConverter.convert\lStringToLocalTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d85/classutils_1_1DateConverter.html#ab41561bd0869c95c0d4046ba2dee7ab2",tooltip=" "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="datastorage.TreatmentDAO.get\lReadAllTreatmentsOfOnePatientByPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d80/classdatastorage_1_1TreatmentDAO.html#a039d9dbb6d0182fb69e8a90341e54d83",tooltip="generates a SELECT-Statement for all treatments, where the pid matches the given id of the patient."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="model.Patient.setShown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a9eb9d53b77cf93c0c5bc25834bb9ef34",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="datastorage.DAOimp.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a9469bdb0627770a5b3220c1739275ac9",tooltip="calls getUpdateStatementString method, with object"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="datastorage.DAOimp.getUpdate\lStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#af62dfafb3074ef9c6f339b1ca81877eb",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "datastorage.CaregiverDAO.getCreateStatementString"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="datastorage.CaregiverDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="generates a INSERT INTO-Statement for a given caregiver"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a7985b46a21b59b8019626198856f0271",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="model.Person.getSurname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a04cc23adea579ab41d7387f1d87633d4",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="model.Caregiver.getTelephone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d72/classmodel_1_1Caregiver.html#ac7fe3c60f35aed340a1e465bcddfd129",tooltip=" "];
+}

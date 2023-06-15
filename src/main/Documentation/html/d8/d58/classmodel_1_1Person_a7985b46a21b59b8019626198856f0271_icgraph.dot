@@ -1,0 +1,28 @@
+digraph "model.Person.getFirstName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.CaregiverDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d16/classdatastorage_1_1CaregiverDAO.html#a80844e35f12ca42ed8d4db7487e065cb",tooltip="generates a INSERT INTO-Statement for a given caregiver"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.PatientDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ddf/classdatastorage_1_1PatientDAO.html#aefd80505217647041f73e97d3954a449",tooltip="generates a INSERT INTO-Statement for a given patient"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.CaregiverDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d16/classdatastorage_1_1CaregiverDAO.html#adb4ac67ab60d0bc6325da8ff668bbc3f",tooltip="generates a UPDATE-Statement for a given caregiver"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.PatientDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ddf/classdatastorage_1_1PatientDAO.html#ad1c346493af83f65b8b5b5198f9c7e55",tooltip="generates a UPDATE-Statement for a given patient"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="controller.TreatmentController.showData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/da8/classcontroller_1_1TreatmentController.html#a8c1d89f665772981480a87c475591426",tooltip="displays full name of the patient and caregiver and full data of the treatment"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="controller.TreatmentController.initialize\lController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/da8/classcontroller_1_1TreatmentController.html#a14be0c5a3f94f6cbdf40a69a4f06d62a",tooltip="Initializes the corresponding fields."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="controller.NewTreatmentController.show\lPatientData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#af86c5f9a41cc64da0483f80c066baf35",tooltip="Sets full name of the Patient, to be shown in the new Window."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="controller.NewTreatmentController.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#a4e4898196d44a32033ef2af94d5bf4da",tooltip="Initializes the corresponding fields."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="model.Caregiver.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d72/classmodel_1_1Caregiver.html#adb76bf07c2a11a1aed2d4adaca2cf8c5",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="model.Patient.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a75c073d8bf4fbb90f77a67ad219d89a3",tooltip=" "];
+}

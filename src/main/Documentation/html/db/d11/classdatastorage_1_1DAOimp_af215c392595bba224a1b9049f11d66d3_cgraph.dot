@@ -1,0 +1,12 @@
+digraph "datastorage.DAOimp.read"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="datastorage.DAOimp.read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="calls getReadByIDStatementString method and makes a new object out of the result"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.DAOimp.getInstance\lFromResultSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#ac174d76e4e51c426ab6557dec84c4962",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.DAOimp.getRead\lByIDStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#ac561cd7847aad0687ff655bddde862d1",tooltip=" "];
+}

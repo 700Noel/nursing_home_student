@@ -1,0 +1,22 @@
+digraph "datastorage.PatientDAO.getUpdateStatementString"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="datastorage.PatientDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="generates a UPDATE-Statement for a given patient"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="model.Patient.getCareLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a491fd4aa85176fd2e580ba54ee313012",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="model.Patient.getDateOfBirth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a8495945440379100f19af0aeeb75f5f8",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a7985b46a21b59b8019626198856f0271",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="model.Patient.getPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a82727c76e72f2f9694a881d77714cb6e",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="model.Patient.getRoomnumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a5309fc64abfea87a6a85e3e9309af01f",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="model.Person.getSurname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a04cc23adea579ab41d7387f1d87633d4",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="model.Patient.Shown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#ac459be6be699c56a010f8801745c334d",tooltip=" "];
+}

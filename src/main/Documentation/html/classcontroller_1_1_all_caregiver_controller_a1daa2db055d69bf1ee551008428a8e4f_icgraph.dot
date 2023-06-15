@@ -1,0 +1,10 @@
+digraph "controller.AllCaregiverController.clearTextfields"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="controller.AllCaregiverController.clear\lTextfields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.AllCaregiverController.handleAdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_all_caregiver_controller.html#a9d3fae314ae3d2ca5c22caaed80642dc",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "model.Caregiver.toString"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="model.Caregiver.toString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_person.html#a7985b46a21b59b8019626198856f0271",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="model.Person.getSurname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_person.html#a04cc23adea579ab41d7387f1d87633d4",tooltip=" "];
+}

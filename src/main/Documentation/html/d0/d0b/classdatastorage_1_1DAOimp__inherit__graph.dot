@@ -1,0 +1,22 @@
+digraph "datastorage.DAOimp&lt; T &gt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="datastorage.DAOimp\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.DAO\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de4/interfacedatastorage_1_1DAO.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Caregiver \>" ,fontname="Helvetica"];
+  Node3 [label="datastorage.DAOimp\l\< Caregiver \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.CaregiverDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d16/classdatastorage_1_1CaregiverDAO.html",tooltip="Implements the Interface DAOImp."];
+  Node1 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Patient \>" ,fontname="Helvetica"];
+  Node5 [label="datastorage.DAOimp\l\< Patient \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="datastorage.PatientDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ddf/classdatastorage_1_1PatientDAO.html",tooltip="Implements the Interface DAOImp."];
+  Node1 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Treatment \>" ,fontname="Helvetica"];
+  Node7 [label="datastorage.DAOimp\l\< Treatment \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="datastorage.TreatmentDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d80/classdatastorage_1_1TreatmentDAO.html",tooltip="Implements the Interface DAOImp."];
+}

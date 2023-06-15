@@ -1,0 +1,14 @@
+digraph "controller.AllCaregiverController.doUpdate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="controller.AllCaregiverController.do\lUpdate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="updates a caregiver by calling the update-Method in the CaregiverDAO"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.AllCaregiverController.handle\lOnEditFirstname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da8/classcontroller_1_1AllCaregiverController.html#a385bc5c8e534d56fc5697b9f3638d619",tooltip="handles new firstname value"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.AllCaregiverController.handle\lOnEditSurname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da8/classcontroller_1_1AllCaregiverController.html#adb7018963ca85ee9197394e603d4389c",tooltip="handles new surname value"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="controller.AllCaregiverController.handle\lOnEditTelephone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da8/classcontroller_1_1AllCaregiverController.html#af6f773f0bc7949226335aee7a32ec1fa",tooltip="handles new telephone value"];
+}

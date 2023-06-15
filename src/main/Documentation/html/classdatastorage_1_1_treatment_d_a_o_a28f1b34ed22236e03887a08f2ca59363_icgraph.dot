@@ -1,0 +1,14 @@
+digraph "datastorage.TreatmentDAO.getListFromResultSet"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="datastorage.TreatmentDAO.get\lListFromResultSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.TreatmentDAO.read\lTreatmentsByPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_treatment_d_a_o.html#a0e7792b40f6d0abd3fe66e48fec632d5",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.AllPatientController.handle\lBlockRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_all_patient_controller.html#a664a386556084bef9ba4894f02c96a9a",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="controller.AllTreatmentController.handle\lComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_all_treatment_controller.html#a5c90fdc050b57ba044aa0d78ea68275d",tooltip=" "];
+}

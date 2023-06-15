@@ -1,0 +1,12 @@
+digraph "controller.AllTreatmentController.searchInListPatient"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="controller.AllTreatmentController.search\lInListPatient",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Goes through List of all patients."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.AllTreatmentController.handle\lComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d3f/classcontroller_1_1AllTreatmentController.html#a5c90fdc050b57ba044aa0d78ea68275d",tooltip="handles which treatments will be shown according to the selected patient"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.AllTreatmentController.handle\lNewTreatment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d3f/classcontroller_1_1AllTreatmentController.html#a538e662045e0a55b8ef1d9924c2fc1a9",tooltip="handles a new-treatment-click-event."];
+}

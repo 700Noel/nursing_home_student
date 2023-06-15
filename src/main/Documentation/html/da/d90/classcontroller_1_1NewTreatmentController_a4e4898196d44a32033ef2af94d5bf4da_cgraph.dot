@@ -1,0 +1,32 @@
+digraph "controller.NewTreatmentController.initialize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.NewTreatmentController.initialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes the corresponding fields."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.NewTreatmentController.create\lComboBoxDataCaregiver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#ac8299dab17e083e4e05c55c45dd987e0",tooltip="Sets Data that will be show when clicked on ComboBox."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.DAOFactory.create\lCaregiverDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a245dea0aa1e64652b90cd158b9c5c0d2",tooltip="creates a new instance of the CaregiverDAO"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.ConnectionBuilder.get\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a217c33442528663e5d3199ade7c19ed1",tooltip="when no Connection has been made, initializes a new ConnectionBuilder"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.ConnectionBuilder.\lConnectionBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a9af3a7f1e527e35fae23c4e06e6494e7",tooltip="creates connection to back-end"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="datastorage.DAOFactory.get\lDAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a489d0947d5e2601ff8617b5e45cbea12",tooltip="Singleton which instantiates a new Object of this class if none already exists."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="datastorage.DAOFactory.DAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#ad381ed774680f7634e4d4ef879b039ae",tooltip="privater constructor to prevent free initializing of a new object"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="datastorage.DAOimp.readAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a7942f9127f6f5e6bd3e1b3dd1a989b82",tooltip="calls getReadAllStatementString method and makes a new list of objects out of the result"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="datastorage.DAOimp.getList\lFromResultSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a1f0fcbb5b757af15b198c1d52fc0158b",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="datastorage.DAOimp.getRead\lAllStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#aa58ff71259a0cd1811eaf5bf80901370",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="controller.NewTreatmentController.show\lPatientData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#af86c5f9a41cc64da0483f80c066baf35",tooltip="Sets full name of the Patient, to be shown in the new Window."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a7985b46a21b59b8019626198856f0271",tooltip=" "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="model.Person.getSurname",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/classmodel_1_1Person.html#a04cc23adea579ab41d7387f1d87633d4",tooltip=" "];
+}

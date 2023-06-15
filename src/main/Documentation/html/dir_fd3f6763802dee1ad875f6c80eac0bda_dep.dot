@@ -1,0 +1,19 @@
+digraph "src/main/java"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_5eb159725f84c66aafd839904a4acdd0 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="main", fontname="Helvetica", fontsize="10", URL="dir_5eb159725f84c66aafd839904a4acdd0.html"]
+  subgraph clusterdir_fd3f6763802dee1ad875f6c80eac0bda {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_fd3f6763802dee1ad875f6c80eac0bda.html"]
+    dir_fd3f6763802dee1ad875f6c80eac0bda [shape=plaintext, label="java"];
+  dir_ce88fbe7b7f923471a3fa75db822a1fd [shape=box, label="account", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_ce88fbe7b7f923471a3fa75db822a1fd.html"];
+  dir_750e0732a4faa2f7034aa060c7582428 [shape=box, label="controller", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_750e0732a4faa2f7034aa060c7582428.html"];
+  dir_d4dc21128e0a9745586b0145a2e17f15 [shape=box, label="datastorage", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_d4dc21128e0a9745586b0145a2e17f15.html"];
+  dir_db9b49385c2f2a6a62f75ae1753957ce [shape=box, label="model", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_db9b49385c2f2a6a62f75ae1753957ce.html"];
+  dir_a1dbf09eaf6cd55b3f2e8e4e3d921cd3 [shape=box, label="utils", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_a1dbf09eaf6cd55b3f2e8e4e3d921cd3.html"];
+  }
+  }
+}

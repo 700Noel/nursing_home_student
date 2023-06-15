@@ -1,0 +1,14 @@
+digraph "controller.AllCaregiverController.handleOnEditTelephone"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.AllCaregiverController.handle\lOnEditTelephone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="handles new telephone value"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.AllCaregiverController.do\lUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da8/classcontroller_1_1AllCaregiverController.html#a0e3ff98d8a37f88e0bd2548530d06fbd",tooltip="updates a caregiver by calling the update-Method in the CaregiverDAO"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.DAOimp.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a9469bdb0627770a5b3220c1739275ac9",tooltip="calls getUpdateStatementString method, with object"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.DAOimp.getUpdate\lStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#af62dfafb3074ef9c6f339b1ca81877eb",tooltip=" "];
+}

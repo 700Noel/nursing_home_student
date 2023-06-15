@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">DateConverter.java</field>
+    <field name="url">d0/d58/DateConverter_8java.html</field>
+    <field name="keywords">DateConverter.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.AllPatientController</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html</field>
+    <field name="keywords">AllPatientController</field>
+    <field name="text">The AllPatientController contains the entire logic of the patient view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.tableView</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a024c36903a3b1edc6e04c838c21a93d8</field>
+    <field name="keywords">tableView controller.AllPatientController.tableView controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.btnDelete</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a03d0097358d507adf9713eade3ced9ad</field>
+    <field name="keywords">btnDelete controller.AllPatientController.btnDelete controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.dao</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a1451ed4885c5b264af2c3c4aed2d745c</field>
+    <field name="keywords">dao controller.AllPatientController.dao controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.txtSurname</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a1cde3d762474ee5185e6485168d824ff</field>
+    <field name="keywords">txtSurname controller.AllPatientController.txtSurname controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.txtFirstname</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a2d2538b9802141f2420690267b8ff292</field>
+    <field name="keywords">txtFirstname controller.AllPatientController.txtFirstname controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.txtBirthday</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a418537627130e02572af14f333f50a1a</field>
+    <field name="keywords">txtBirthday controller.AllPatientController.txtBirthday controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.clearTextfields</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a48b9090e1217b6a3dad6668bccbae0e1</field>
+    <field name="keywords">clearTextfields controller.AllPatientController.clearTextfields controller.AllPatientController</field>
+    <field name="text">removes content from all textfields</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.txtRoom</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a4cb228ab88b73def121b6b102320632c</field>
+    <field name="keywords">txtRoom controller.AllPatientController.txtRoom controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colRoom</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a597e290b0066ecd89d97c89e9e98155c</field>
+    <field name="keywords">colRoom controller.AllPatientController.colRoom controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.btnAdd</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a6259351e9abfc9a477c1345e41f0d6d4</field>
+    <field name="keywords">btnAdd controller.AllPatientController.btnAdd controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleBlockRow</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a664a386556084bef9ba4894f02c96a9a</field>
+    <field name="keywords">handleBlockRow controller.AllPatientController.handleBlockRow controller.AllPatientController</field>
+    <field name="text">handles a block-click-event Changes the shown variable of the patient in the database to indicate if this patient should be shown</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.initialize</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a674a447e8e56d6f16ab32345917c57af</field>
+    <field name="keywords">initialize controller.AllPatientController.initialize controller.AllPatientController</field>
+    <field name="text">Initializes the corresponding fields Is called as soon as the corresponding FXML file is to be displayed</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.txtCarelevel</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a71752c8db62fbf95a19bf4f66ba178f4</field>
+    <field name="keywords">txtCarelevel controller.AllPatientController.txtCarelevel controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleAdd</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a788ab9d8748e03242ccf070c4ae2b99c</field>
+    <field name="keywords">handleAdd controller.AllPatientController.handleAdd controller.AllPatientController</field>
+    <field name="text">handles a add-click-event Creates a patient and calls the create method in the PatientDAO</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleOnEditRoomnumber</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; event)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a7a500ec22ecadcf03041174cab40bfce</field>
+    <field name="keywords">handleOnEditRoomnumber controller.AllPatientController.handleOnEditRoomnumber controller.AllPatientController</field>
+    <field name="text">handles new roomnumber value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colSurname</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a80da2866aaabee85f0bf7df5cf7b5d92</field>
+    <field name="keywords">colSurname controller.AllPatientController.colSurname controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.tableviewContent</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#a86a29b6e300d4d0bb2cebb78c6435e21</field>
+    <field name="keywords">tableviewContent controller.AllPatientController.tableviewContent controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleOnEditSurname</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; event)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#aa15b81e256cf62b2dc5f55a0dec65f3a</field>
+    <field name="keywords">handleOnEditSurname controller.AllPatientController.handleOnEditSurname controller.AllPatientController</field>
+    <field name="text">handles new surname value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colID</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#abb3bdd52b743854db955ce47b861e654</field>
+    <field name="keywords">colID controller.AllPatientController.colID controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleDeleteRow</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#ac7020edc8517a2ac37f5db54e568de2b</field>
+    <field name="keywords">handleDeleteRow controller.AllPatientController.handleDeleteRow controller.AllPatientController</field>
+    <field name="text">handles a delete-click-event Calls the delete methods in the PatientDAO and TreatmentDAO</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colDateOfBirth</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#acc6289c80352e53f9b2cdfd50d96db69</field>
+    <field name="keywords">colDateOfBirth controller.AllPatientController.colDateOfBirth controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.readAllAndShowInTableView</field>
+    <field name="args">()</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#ad1203621e0a4c54b48ee6d7299f145e3</field>
+    <field name="keywords">readAllAndShowInTableView controller.AllPatientController.readAllAndShowInTableView controller.AllPatientController</field>
+    <field name="text">calls readAll in PatientDAO and shows patients in the table</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleOnEditFirstname</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; event)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#adcd8077d6979c856576ad1921a0b654c</field>
+    <field name="keywords">handleOnEditFirstname controller.AllPatientController.handleOnEditFirstname controller.AllPatientController</field>
+    <field name="text">handles new firstname value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleOnEditDateOfBirth</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; event)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#ae0d553649e4ae973c1beeba8ff088dd8</field>
+    <field name="keywords">handleOnEditDateOfBirth controller.AllPatientController.handleOnEditDateOfBirth controller.AllPatientController</field>
+    <field name="text">handles new birthdate value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.handleOnEditCareLevel</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; event)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#af18f5a2fc95aec995009c9d9c3a78c09</field>
+    <field name="keywords">handleOnEditCareLevel controller.AllPatientController.handleOnEditCareLevel controller.AllPatientController</field>
+    <field name="text">handles new carelevel value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colFirstName</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#af28b68961321dcb0289d099c79872f4d</field>
+    <field name="keywords">colFirstName controller.AllPatientController.colFirstName controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllPatientController.colCareLevel</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#af8efd9b88498d02d2c33da221e7f4cd6</field>
+    <field name="keywords">colCareLevel controller.AllPatientController.colCareLevel controller.AllPatientController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllPatientController.doUpdate</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Patient, String &gt; t)</field>
+    <field name="url">d0/dbc/classcontroller_1_1AllPatientController.html#afce9f2f964f9c66949a00e45879815eb</field>
+    <field name="keywords">doUpdate controller.AllPatientController.doUpdate controller.AllPatientController</field>
+    <field name="text">updates a patient by calling the update-Method in the PatientDAO t row to be updated by the user includes the patient</field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Caregiver.java</field>
+    <field name="url">d1/d3e/Caregiver_8java.html</field>
+    <field name="keywords">Caregiver.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">AllPatientController.java</field>
+    <field name="url">d1/d65/AllPatientController_8java.html</field>
+    <field name="keywords">AllPatientController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">UserManager.java</field>
+    <field name="url">d1/ddd/UserManager_8java.html</field>
+    <field name="keywords">UserManager.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.TreatmentDAO</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html</field>
+    <field name="keywords">TreatmentDAO</field>
+    <field name="text">Implements the Interface DAOImp Overrides methods to generate specific treatment-SQL-queries</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getReadAllTreatmentsOfOnePatientByPid</field>
+    <field name="args">(long pid)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a039d9dbb6d0182fb69e8a90341e54d83</field>
+    <field name="keywords">getReadAllTreatmentsOfOnePatientByPid datastorage.TreatmentDAO.getReadAllTreatmentsOfOnePatientByPid datastorage.TreatmentDAO</field>
+    <field name="text">generates a SELECT Statement for all treatments where the pid matches the given id of the patient pid pid id of the patient String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getReadByIDStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a06a1c8e3d6c5a02568868de228eed693</field>
+    <field name="keywords">getReadByIDStatementString datastorage.TreatmentDAO.getReadByIDStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a select Statement for a given key key for which a specific SELECT is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.readTreatmentsByPid</field>
+    <field name="args">(long pid)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a0e7792b40f6d0abd3fe66e48fec632d5</field>
+    <field name="keywords">readTreatmentsByPid datastorage.TreatmentDAO.readTreatmentsByPid datastorage.TreatmentDAO</field>
+    <field name="text">calls getReadAllTreatmentsOfOnePatientByPid method with given pid pid id of the patient list of Treatments SQLException</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getDeleteStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a1352a41b2b2db179d5e7e424623ef366</field>
+    <field name="keywords">getDeleteStatementString datastorage.TreatmentDAO.getDeleteStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a delete Statement for a given key key for which a specific DELETE is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getReadAllUnblockedStatementString</field>
+    <field name="args">()</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a1674b092be2d18a18e82f96da818812a</field>
+    <field name="keywords">getReadAllUnblockedStatementString datastorage.TreatmentDAO.getReadAllUnblockedStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a SELECT Statement for all treatments where the show variable is true String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getCreateStatementString</field>
+    <field name="args">(Treatment treatment)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a221f2f1945d7d5a3497a90f6ca856d8b</field>
+    <field name="keywords">getCreateStatementString datastorage.TreatmentDAO.getCreateStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a INSERT INTO Statement for a given treatment treatment for which a specific INSERT INTO is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getListFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a28f1b34ed22236e03887a08f2ca59363</field>
+    <field name="keywords">getListFromResultSet datastorage.TreatmentDAO.getListFromResultSet datastorage.TreatmentDAO</field>
+    <field name="text">maps a ResultSet to a Treatment-List result ResultSet with a multiple rows Data will be mapped to treatment-object ArrayList with treatments from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.deleteByPid</field>
+    <field name="args">(long key)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a4aad31f2c8018ab4aa4e5a2e033bb464</field>
+    <field name="keywords">deleteByPid datastorage.TreatmentDAO.deleteByPid datastorage.TreatmentDAO</field>
+    <field name="text">generates a delete Statement for a given key key of the id of a patient for which a specific DELETE is to be executed SQLException</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getUpdateStatementString</field>
+    <field name="args">(Treatment treatment)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#a7f01dbb78b475e780b155c7d615a6345</field>
+    <field name="keywords">getUpdateStatementString datastorage.TreatmentDAO.getUpdateStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a UPDATE Statement for a given treatment treatment for which a specific update is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getReadAllStatementString</field>
+    <field name="args">()</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#aa32325213afcea5ece3326e0db61dfa6</field>
+    <field name="keywords">getReadAllStatementString datastorage.TreatmentDAO.getReadAllStatementString datastorage.TreatmentDAO</field>
+    <field name="text">generates a SELECT Statement for all treatments String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.getInstanceFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#ad899c0ca759091a90583040117e2c3a6</field>
+    <field name="keywords">getInstanceFromResultSet datastorage.TreatmentDAO.getInstanceFromResultSet datastorage.TreatmentDAO</field>
+    <field name="text">maps a ResultSet to a Treatment result ResultSet with a single row Columns will be mapped to a treatment-object treatment with the data from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.TreatmentDAO.TreatmentDAO</field>
+    <field name="args">(Connection conn)</field>
+    <field name="url">d2/d80/classdatastorage_1_1TreatmentDAO.html#aee4907202f91c1867fb1aed3adf7ee82</field>
+    <field name="keywords">TreatmentDAO datastorage.TreatmentDAO.TreatmentDAO datastorage.TreatmentDAO</field>
+    <field name="text">constructs Object Calls the Constructor from DAOImp to store the connection conn</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">utils.DateConverter</field>
+    <field name="url">d2/d85/classutils_1_1DateConverter.html</field>
+    <field name="keywords">DateConverter</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">utils.DateConverter.convertStringToLocalDate</field>
+    <field name="args">(String date)</field>
+    <field name="url">d2/d85/classutils_1_1DateConverter.html#a1cf1a44e9c92819eea72a43f9551241f</field>
+    <field name="keywords">convertStringToLocalDate utils.DateConverter.convertStringToLocalDate utils.DateConverter</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">utils.DateConverter.convertStringToLocalTime</field>
+    <field name="args">(String time)</field>
+    <field name="url">d2/d85/classutils_1_1DateConverter.html#ab41561bd0869c95c0d4046ba2dee7ab2</field>
+    <field name="keywords">convertStringToLocalTime utils.DateConverter.convertStringToLocalTime utils.DateConverter</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">AllCaregiverController.java</field>
+    <field name="url">d2/dcd/AllCaregiverController_8java.html</field>
+    <field name="keywords">AllCaregiverController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.AllTreatmentController</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html</field>
+    <field name="keywords">AllTreatmentController</field>
+    <field name="text">The AllTreatmentController contains the entire logic of the all treatment view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.createComboBoxDataPatient</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a00e97d51df5421fb13cf8f4e4e12c189</field>
+    <field name="keywords">createComboBoxDataPatient controller.AllTreatmentController.createComboBoxDataPatient controller.AllTreatmentController</field>
+    <field name="text">Sets Data that will be show when clicked on ComboBox Does not show treatments from blocked patients</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colID</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a0353daa309bec4dcc894b48aed6137e4</field>
+    <field name="keywords">colID controller.AllTreatmentController.colID controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colPid</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a055e73f7d8112ad7ceb80e7d6fa669ad</field>
+    <field name="keywords">colPid controller.AllTreatmentController.colPid controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.initialize</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a06b12fc992cae2f06560f77a794623e9</field>
+    <field name="keywords">initialize controller.AllTreatmentController.initialize controller.AllTreatmentController</field>
+    <field name="text">Initializes the corresponding fields Is called as soon as the corresponding FXML file is to be displayed</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colDescription</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a084d8b073f800ccd59cbc61806e15455</field>
+    <field name="keywords">colDescription controller.AllTreatmentController.colDescription controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.handleDelete</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a2d230fce9663f5ced451d40edac48610</field>
+    <field name="keywords">handleDelete controller.AllTreatmentController.handleDelete controller.AllTreatmentController</field>
+    <field name="text">handles a delete-click-event Calls the delete methods in the TreatmentDAO</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.searchInListPatient</field>
+    <field name="args">(String surname)</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a3cb7bfa27dbe614a50e752805fb33632</field>
+    <field name="keywords">searchInListPatient controller.AllTreatmentController.searchInListPatient controller.AllTreatmentController</field>
+    <field name="text">Goes through List of all patients surname String which all patients will be evaluated with patient with the corresponding surname</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.handleNewTreatment</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a538e662045e0a55b8ef1d9924c2fc1a9</field>
+    <field name="keywords">handleNewTreatment controller.AllTreatmentController.handleNewTreatment controller.AllTreatmentController</field>
+    <field name="text">handles a new-treatment-click-event Saves selected patient and calls the create newTreatmentWindow method with the selected patient</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.handleBlockRow</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a5c72fa63224ac62884ba3088ae242491</field>
+    <field name="keywords">handleBlockRow controller.AllTreatmentController.handleBlockRow controller.AllTreatmentController</field>
+    <field name="text">handles a block-click-event Changes the shown variable of the patient in the database to indicate if this caregiver should be shown</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.handleComboBox</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a5c90fdc050b57ba044aa0d78ea68275d</field>
+    <field name="keywords">handleComboBox controller.AllTreatmentController.handleComboBox controller.AllTreatmentController</field>
+    <field name="text">handles which treatments will be shown according to the selected patient</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.btnDelete</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a5d91b1b816357063b46587249e2e36ec</field>
+    <field name="keywords">btnDelete controller.AllTreatmentController.btnDelete controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.myComboBoxData</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a6dd0e198995f5a38eba6c878b4251f9a</field>
+    <field name="keywords">myComboBoxData controller.AllTreatmentController.myComboBoxData controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.main</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a7774c6ca32f3383370145b464437645e</field>
+    <field name="keywords">main controller.AllTreatmentController.main controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.caregiverList</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a7b264324abeda408846f8c7f355332d4</field>
+    <field name="keywords">caregiverList controller.AllTreatmentController.caregiverList controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.tableView</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a80e5e83ccfd681790ea629679799d9d5</field>
+    <field name="keywords">tableView controller.AllTreatmentController.tableView controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.treatmentWindow</field>
+    <field name="args">(Treatment treatment)</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a92cacf25e2549b9e1f532226dacbb2e3</field>
+    <field name="keywords">treatmentWindow controller.AllTreatmentController.treatmentWindow controller.AllTreatmentController</field>
+    <field name="text">loads TreatmentView and sets it as the current scene Calls initializeContoller in the TreatmentController treatment treatment which gets passed to the TreatmentController</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.btnNewTreatment</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a9752a04195186f6679623ff2705b55d5</field>
+    <field name="keywords">btnNewTreatment controller.AllTreatmentController.btnNewTreatment controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colBegin</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#a9f686d8fa90321f495308e7292fb7d8d</field>
+    <field name="keywords">colBegin controller.AllTreatmentController.colBegin controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.handleMouseClick</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#abc2fd4c86fe69bc2bc133676b9733593</field>
+    <field name="keywords">handleMouseClick controller.AllTreatmentController.handleMouseClick controller.AllTreatmentController</field>
+    <field name="text">handles double mouse-click-event on treatments Calls method treatmentWindow with clicked treatment</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.patientList</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#ac17b8ba21d5f2a61fba4ee17a50c76b2</field>
+    <field name="keywords">patientList controller.AllTreatmentController.patientList controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colDate</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#ac50693326362f8b572ee22ba6124d1dd</field>
+    <field name="keywords">colDate controller.AllTreatmentController.colDate controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colCid</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#aca0cc6c04e1fc8b99d1ee2ab9be0c2e7</field>
+    <field name="keywords">colCid controller.AllTreatmentController.colCid controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.dao</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#ad220b2541e4ee1ec7d265f41219651b7</field>
+    <field name="keywords">dao controller.AllTreatmentController.dao controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.colEnd</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#ad458438f309a270d2735ddf77f720e1a</field>
+    <field name="keywords">colEnd controller.AllTreatmentController.colEnd controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.tableviewContent</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#adc6da2e65cdd5a591132adb6a1ae6689</field>
+    <field name="keywords">tableviewContent controller.AllTreatmentController.tableviewContent controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.readAllAndShowInTableView</field>
+    <field name="args">()</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#aea26e7be0df3ab2dda8fb92f5f356e97</field>
+    <field name="keywords">readAllAndShowInTableView controller.AllTreatmentController.readAllAndShowInTableView controller.AllTreatmentController</field>
+    <field name="text">calls readAll in TreatmentDAO and shows treatments in the table</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllTreatmentController.comboBox</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#af19cc79a687f4f4d0e40e0cf7dd9f09d</field>
+    <field name="keywords">comboBox controller.AllTreatmentController.comboBox controller.AllTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllTreatmentController.newTreatmentWindow</field>
+    <field name="args">(Patient patient)</field>
+    <field name="url">d3/d3f/classcontroller_1_1AllTreatmentController.html#afd3148dfac06f1fbcab592386a653778</field>
+    <field name="keywords">newTreatmentWindow controller.AllTreatmentController.newTreatmentWindow controller.AllTreatmentController</field>
+    <field name="text">loads NewTreatmentView and sets it as the current scene Calls initialize in the NewTreatmentController patient patient which gets passed to the NewTreatmentController</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">model.Caregiver</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html</field>
+    <field name="keywords">Caregiver</field>
+    <field name="text">Caregiver nurse residents in a NURSING home</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Caregiver.allTreatments</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a1151c1f868cb1d2bae2417c3f2c608c0</field>
+    <field name="keywords">allTreatments model.Caregiver.allTreatments model.Caregiver</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.getId</field>
+    <field name="args">()</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a22f7dd913d090f36bec91834414355ca</field>
+    <field name="keywords">getId model.Caregiver.getId model.Caregiver</field>
+    <field name="text">caregiver id</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Caregiver.shown</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a2bdfd69f9c554cb6d657d8938ea4ed28</field>
+    <field name="keywords">shown model.Caregiver.shown model.Caregiver</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.Caregiver</field>
+    <field name="args">(String firstName, String surname, String telephone, boolean shown)</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a382ee892b7ee409abe5b6eb65c30333b</field>
+    <field name="keywords">Caregiver model.Caregiver.Caregiver model.Caregiver</field>
+    <field name="text">constructs a caregiver from the given params firstName surname telephone shown</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Caregiver.telephone</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a3a5b8bc625718c25293e6f77dcebcfee</field>
+    <field name="keywords">telephone model.Caregiver.telephone model.Caregiver</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.add</field>
+    <field name="args">(Treatment m)</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a780a4c69b7d905e687baa9e3083082ec</field>
+    <field name="keywords">add model.Caregiver.add model.Caregiver</field>
+    <field name="text">adds a treatment to the treatment-list if it does not already contain it m Treatment true if the treatment was not already part of the list otherwise false</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.setShown</field>
+    <field name="args">(boolean shown)</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a7f0d69ab3cf9f961b59190ad23a650fb</field>
+    <field name="keywords">setShown model.Caregiver.setShown model.Caregiver</field>
+    <field name="text">shown as boolean</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.isShown</field>
+    <field name="args">()</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a8903c7716af7b1bc34fc63df406b1783</field>
+    <field name="keywords">isShown model.Caregiver.isShown model.Caregiver</field>
+    <field name="text">shown status as boolean</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.Caregiver</field>
+    <field name="args">(long id, String firstName, String surname, String telephone, boolean shown)</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#a8daf3890d69e8ec7392e4934837ec66b</field>
+    <field name="keywords">Caregiver model.Caregiver.Caregiver model.Caregiver</field>
+    <field name="text">constructs a caregiver from the given params id firstName surname telephone shown</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Caregiver.id</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#aa94f7191b68f43f34a333c8aeccda068</field>
+    <field name="keywords">id model.Caregiver.id model.Caregiver</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.setTelephone</field>
+    <field name="args">(String telephone)</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#abc3d05077d2f346a3b9a01f77aa3bd69</field>
+    <field name="keywords">setTelephone model.Caregiver.setTelephone model.Caregiver</field>
+    <field name="text">telephone as string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.getTelephone</field>
+    <field name="args">()</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#ac7fe3c60f35aed340a1e465bcddfd129</field>
+    <field name="keywords">getTelephone model.Caregiver.getTelephone model.Caregiver</field>
+    <field name="text">telephone number as a string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Caregiver.toString</field>
+    <field name="args">()</field>
+    <field name="url">d3/d72/classmodel_1_1Caregiver.html#adb76bf07c2a11a1aed2d4adaca2cf8c5</field>
+    <field name="keywords">toString model.Caregiver.toString model.Caregiver</field>
+    <field name="text">string-representation of the caregiver</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">utils.Sha256</field>
+    <field name="url">d3/d79/classutils_1_1Sha256.html</field>
+    <field name="keywords">Sha256</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">utils.Sha256.getSecurePassword</field>
+    <field name="args">(String password, String username)</field>
+    <field name="url">d3/d79/classutils_1_1Sha256.html#ae6231f09747656b8a3ca532503f1853f</field>
+    <field name="keywords">getSecurePassword utils.Sha256.getSecurePassword utils.Sha256</field>
+    <field name="text">Performs a Sha-256 hashing algorithm on the password using the username and the password itself password username Hashed data</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.TreatmentController</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html</field>
+    <field name="keywords">TreatmentController</field>
+    <field name="text">The TreatmentController contains the entire logic of the treatment view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.TreatmentController.initializeController</field>
+    <field name="args">(AllTreatmentController controller, Stage stage, Treatment treatment)</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a14be0c5a3f94f6cbdf40a69a4f06d62a</field>
+    <field name="keywords">initializeController controller.TreatmentController.initializeController controller.TreatmentController</field>
+    <field name="text">Initializes the corresponding fields Is called as soon as the corresponding FXML file is to be displayed controller saves the controller of the original AllTreatmentController to later display the changes there stage the stage initialized in the AllTreatmentController treatment treatment which needs to be displayed</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.caregiver</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a228070271392ec3fe20ea19d32075ae9</field>
+    <field name="keywords">caregiver controller.TreatmentController.caregiver controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.TreatmentController.doUpdate</field>
+    <field name="args">()</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a229a02d2e6018249745011035a8df2df</field>
+    <field name="keywords">doUpdate controller.TreatmentController.doUpdate controller.TreatmentController</field>
+    <field name="text">Calls the update method in the TreatmentDAO with the new treatment data</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.stage</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a24a1871d7f9afbfee7f785553bf2c9da</field>
+    <field name="keywords">stage controller.TreatmentController.stage controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.treatment</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a41b298b911294bf70b66193f8e86c9a5</field>
+    <field name="keywords">treatment controller.TreatmentController.treatment controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.btnCancel</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a46e1efb60e175df9a5060f83f85cdea9</field>
+    <field name="keywords">btnCancel controller.TreatmentController.btnCancel controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.txtDescription</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a5e30f4169ba9e0ccee43ee7692564cc1</field>
+    <field name="keywords">txtDescription controller.TreatmentController.txtDescription controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.controller</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a61bf9943f4a12c8ab053811c7b563534</field>
+    <field name="keywords">controller controller.TreatmentController.controller controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.txtEnd</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a65d13d9cd5683bab21b97257048afb3f</field>
+    <field name="keywords">txtEnd controller.TreatmentController.txtEnd controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.patient</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a750506464156e19f21cff40fa52c18f7</field>
+    <field name="keywords">patient controller.TreatmentController.patient controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.TreatmentController.handleCancel</field>
+    <field name="args">()</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a78250d13984439b7b5222803a419e9b8</field>
+    <field name="keywords">handleCancel controller.TreatmentController.handleCancel controller.TreatmentController</field>
+    <field name="text">closes window</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.TreatmentController.handleChange</field>
+    <field name="args">()</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a7f8e8d48b027c91abdb4befce81086e5</field>
+    <field name="keywords">handleChange controller.TreatmentController.handleChange controller.TreatmentController</field>
+    <field name="text">handle changes made in the treatment fields calls the doUpdate method calls the readAllAndShowInTableView in the AllTreatmentController and closes the window</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.TreatmentController.showData</field>
+    <field name="args">()</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a8c1d89f665772981480a87c475591426</field>
+    <field name="keywords">showData controller.TreatmentController.showData controller.TreatmentController</field>
+    <field name="text">displays full name of the patient and caregiver and full data of the treatment</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.taRemarks</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#a9e4307bf7fa1e14e5ea0d7cb4036bab2</field>
+    <field name="keywords">taRemarks controller.TreatmentController.taRemarks controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.txtBegin</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#ab25e964149dc337c769b15c7771d48d4</field>
+    <field name="keywords">txtBegin controller.TreatmentController.txtBegin controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.lblCaregiverName</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#ab52b39135a7d8d1e3647a970f0e1bc3a</field>
+    <field name="keywords">lblCaregiverName controller.TreatmentController.lblCaregiverName controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.datepicker</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#ac1732bd5ff2fe66c561aa64e8b9ae8cd</field>
+    <field name="keywords">datepicker controller.TreatmentController.datepicker controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.lblCarelevel</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#adc455a415ff4b90ff5001c3cbc7b6886</field>
+    <field name="keywords">lblCarelevel controller.TreatmentController.lblCarelevel controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.lblPatientName</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#ae7a7bcaf8646e9ca87acbf98ff626591</field>
+    <field name="keywords">lblPatientName controller.TreatmentController.lblPatientName controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.TreatmentController.btnChange</field>
+    <field name="url">d3/da8/classcontroller_1_1TreatmentController.html#af9efc20a467940b2cc364c6e97709496</field>
+    <field name="keywords">btnChange controller.TreatmentController.btnChange controller.TreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.AllCaregiverController</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html</field>
+    <field name="keywords">AllCaregiverController</field>
+    <field name="text">The AllCaregiverController contains the entire logic of the caregiver view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.doUpdate</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Caregiver, String &gt; t)</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a0e3ff98d8a37f88e0bd2548530d06fbd</field>
+    <field name="keywords">doUpdate controller.AllCaregiverController.doUpdate controller.AllCaregiverController</field>
+    <field name="text">updates a caregiver by calling the update-Method in the CaregiverDAO t row to be updated by the user includes the caregiver</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.clearTextfields</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a1daa2db055d69bf1ee551008428a8e4f</field>
+    <field name="keywords">clearTextfields controller.AllCaregiverController.clearTextfields controller.AllCaregiverController</field>
+    <field name="text">removes content from all textfields</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.btnAdd</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a27be18028f8906b85c1c836fb1b09eac</field>
+    <field name="keywords">btnAdd controller.AllCaregiverController.btnAdd controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleOnEditFirstname</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Caregiver, String &gt; event)</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a385bc5c8e534d56fc5697b9f3638d619</field>
+    <field name="keywords">handleOnEditFirstname controller.AllCaregiverController.handleOnEditFirstname controller.AllCaregiverController</field>
+    <field name="text">handles new firstname value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.initialize</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a3e3648951a34837d6862149c924ceac4</field>
+    <field name="keywords">initialize controller.AllCaregiverController.initialize controller.AllCaregiverController</field>
+    <field name="text">Initializes the corresponding fields Is called as soon as the corresponding FXML file is to be displayed</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.txfTelephone</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a405ad78003b042358644d9fcbffb2e6a</field>
+    <field name="keywords">txfTelephone controller.AllCaregiverController.txfTelephone controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.tableView</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a40a9bc2e464c7e0b3e427fa1760fa7b1</field>
+    <field name="keywords">tableView controller.AllCaregiverController.tableView controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.colSurname</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a449a7137df930fa2ad6eafdd9a03f24f</field>
+    <field name="keywords">colSurname controller.AllCaregiverController.colSurname controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleBlockRow</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a55a68c533abbf4c5bfd902bf3d1a0525</field>
+    <field name="keywords">handleBlockRow controller.AllCaregiverController.handleBlockRow controller.AllCaregiverController</field>
+    <field name="text">handles a block-click-event Changes the shown variable of the patient in the database to indicate if this caregiver should be shown</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.btnDelete</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a641e460953a1b6793779be5fba1c0194</field>
+    <field name="keywords">btnDelete controller.AllCaregiverController.btnDelete controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.readAllAndShowInTableView</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a909f03c8669720337d0c91b66999e1d1</field>
+    <field name="keywords">readAllAndShowInTableView controller.AllCaregiverController.readAllAndShowInTableView controller.AllCaregiverController</field>
+    <field name="text">calls readAll in CaregiverDAO and shows patients in the table</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.tableviewContent</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a9344e5f72e8ca56f972f29199d437ed9</field>
+    <field name="keywords">tableviewContent controller.AllCaregiverController.tableviewContent controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.txfFirstname</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a978de2d57ec1b952677c44fd9bbda208</field>
+    <field name="keywords">txfFirstname controller.AllCaregiverController.txfFirstname controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.colFirstName</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a97d8b170f1bd392b113a2bd8de86cc08</field>
+    <field name="keywords">colFirstName controller.AllCaregiverController.colFirstName controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleAdd</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a9d3fae314ae3d2ca5c22caaed80642dc</field>
+    <field name="keywords">handleAdd controller.AllCaregiverController.handleAdd controller.AllCaregiverController</field>
+    <field name="text">handles an add-click-event Creates a patient and calls the create method in the CaregiverDAO</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.txfSurname</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#a9e260c84593213f81c2036687b3e7dbc</field>
+    <field name="keywords">txfSurname controller.AllCaregiverController.txfSurname controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.colTelephone</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#abb240267817a565f469ac3a13a1207c9</field>
+    <field name="keywords">colTelephone controller.AllCaregiverController.colTelephone controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleDeleteRow</field>
+    <field name="args">()</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#ac1c2083b8cf430c1d608ae431f529a24</field>
+    <field name="keywords">handleDeleteRow controller.AllCaregiverController.handleDeleteRow controller.AllCaregiverController</field>
+    <field name="text">handles a delete-click-event Calls the delete methods in the PatientDAO and TreatmentDAO</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.colID</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#ad710995851877aca5d51bc4194fde1b3</field>
+    <field name="keywords">colID controller.AllCaregiverController.colID controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleOnEditSurname</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Caregiver, String &gt; event)</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#adb7018963ca85ee9197394e603d4389c</field>
+    <field name="keywords">handleOnEditSurname controller.AllCaregiverController.handleOnEditSurname controller.AllCaregiverController</field>
+    <field name="text">handles new surname value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.AllCaregiverController.dao</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#af56deff90a702bfeb20aa80355867325</field>
+    <field name="keywords">dao controller.AllCaregiverController.dao controller.AllCaregiverController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.AllCaregiverController.handleOnEditTelephone</field>
+    <field name="args">(TableColumn.CellEditEvent&lt; Caregiver, String &gt; event)</field>
+    <field name="url">d4/da8/classcontroller_1_1AllCaregiverController.html#af6f773f0bc7949226335aee7a32ec1fa</field>
+    <field name="keywords">handleOnEditTelephone controller.AllCaregiverController.handleOnEditTelephone controller.AllCaregiverController</field>
+    <field name="text">handles new telephone value event event including the value that a user entered into the cell</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">datastorage</field>
+    <field name="url">d5/d4d/namespacedatastorage.html</field>
+    <field name="keywords">datastorage</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">account.UserManager</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html</field>
+    <field name="keywords">UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">account.UserManager.LoggedInUserID</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#a3885d3b80a4a6c7efe80217ede009b49</field>
+    <field name="keywords">LoggedInUserID account.UserManager.LoggedInUserID account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">account.UserManager.isLoggedIn</field>
+    <field name="args">()</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#a6e18cdec31f1de51a02f7fc2b0bec9a1</field>
+    <field name="keywords">isLoggedIn account.UserManager.isLoggedIn account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">account.UserManager.Login</field>
+    <field name="args">(String username, String password)</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#a7c893408a571fdb7fb6311c61f5c1412</field>
+    <field name="keywords">Login account.UserManager.Login account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">account.UserManager.connection</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#a9956ce271f5b02229caccc2caa2f3eab</field>
+    <field name="keywords">connection account.UserManager.connection account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">account.UserManager.getInstance</field>
+    <field name="args">()</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#aa23dd4e7e796f003000a6b33d18c058d</field>
+    <field name="keywords">getInstance account.UserManager.getInstance account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">account.UserManager.UserManager</field>
+    <field name="args">(Connection connection)</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#ad16ac28e2da8e965bb95d5995740d9bd</field>
+    <field name="keywords">UserManager account.UserManager.UserManager account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">account.UserManager.instance</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#ad280b477e74ca7032a8cb9b1c40a0f9d</field>
+    <field name="keywords">instance account.UserManager.instance account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">account.UserManager.LoggedIn</field>
+    <field name="url">d5/d83/classaccount_1_1UserManager.html#ad3a9707dba8bb55d3573ffef71a0f27e</field>
+    <field name="keywords">LoggedIn account.UserManager.LoggedIn account.UserManager</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">NewTreatmentController.java</field>
+    <field name="url">d5/da2/NewTreatmentController_8java.html</field>
+    <field name="keywords">NewTreatmentController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Main.java</field>
+    <field name="url">d6/d13/Main_8java.html</field>
+    <field name="keywords">Main.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.ConnectionBuilder</field>
+    <field name="url">d6/d58/classdatastorage_1_1ConnectionBuilder.html</field>
+    <field name="keywords">ConnectionBuilder</field>
+    <field name="text">creates a connection between the front-end and the back-end</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.ConnectionBuilder.getConnection</field>
+    <field name="args">()</field>
+    <field name="url">d6/d58/classdatastorage_1_1ConnectionBuilder.html#a217c33442528663e5d3199ade7c19ed1</field>
+    <field name="keywords">getConnection datastorage.ConnectionBuilder.getConnection datastorage.ConnectionBuilder</field>
+    <field name="text">when no Connection has been made initializes a new ConnectionBuilder Connection</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.ConnectionBuilder.closeConnection</field>
+    <field name="args">()</field>
+    <field name="url">d6/d58/classdatastorage_1_1ConnectionBuilder.html#a21fdc61dd22d9ef75de2ee279aa01388</field>
+    <field name="keywords">closeConnection datastorage.ConnectionBuilder.closeConnection datastorage.ConnectionBuilder</field>
+    <field name="text">closes connection to application</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">datastorage.ConnectionBuilder.conn</field>
+    <field name="url">d6/d58/classdatastorage_1_1ConnectionBuilder.html#a72e08f9e3b008529ccadab4bb6dc2e56</field>
+    <field name="keywords">conn datastorage.ConnectionBuilder.conn datastorage.ConnectionBuilder</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.ConnectionBuilder.ConnectionBuilder</field>
+    <field name="args">()</field>
+    <field name="url">d6/d58/classdatastorage_1_1ConnectionBuilder.html#a9af3a7f1e527e35fae23c4e06e6494e7</field>
+    <field name="keywords">ConnectionBuilder datastorage.ConnectionBuilder.ConnectionBuilder datastorage.ConnectionBuilder</field>
+    <field name="text">creates connection to back-end</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">utils</field>
+    <field name="url">d6/d84/namespaceutils.html</field>
+    <field name="keywords">utils</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">DAOimp.java</field>
+    <field name="url">d6/dfc/DAOimp_8java.html</field>
+    <field name="keywords">DAOimp.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">model.Patient</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html</field>
+    <field name="keywords">Patient</field>
+    <field name="text">Patients live in a NURSING home and are treated by nurses</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.roomnumber</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a088b96869b964cfaec266127c4212d47</field>
+    <field name="keywords">roomnumber model.Patient.roomnumber model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.Patient</field>
+    <field name="args">(long pid, String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber, boolean shown)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a2335dacc20f13899f8ab94ff5fa605f6</field>
+    <field name="keywords">Patient model.Patient.Patient model.Patient</field>
+    <field name="text">constructs a patient from the given params pid firstName surname dateOfBirth careLevel roomnumber</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.add</field>
+    <field name="args">(Treatment m)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a4343c1c2fb39e2097a05c6b7472f1ed4</field>
+    <field name="keywords">add model.Patient.add model.Patient</field>
+    <field name="text">adds a treatment to the treatment-list if it does not already contain it m Treatment true if the treatment was not already part of the list otherwise false</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.getCareLevel</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a491fd4aa85176fd2e580ba54ee313012</field>
+    <field name="keywords">getCareLevel model.Patient.getCareLevel model.Patient</field>
+    <field name="text">careLevel</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.careLevel</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a50acb0050917d830526aaf8a8a083193</field>
+    <field name="keywords">careLevel model.Patient.careLevel model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.getRoomnumber</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a5309fc64abfea87a6a85e3e9309af01f</field>
+    <field name="keywords">getRoomnumber model.Patient.getRoomnumber model.Patient</field>
+    <field name="text">roomNumber as string</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.allTreatments</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a74abe791b66348c84583327fbdd39d40</field>
+    <field name="keywords">allTreatments model.Patient.allTreatments model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.dateOfBirth</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a74cc419741855d0c19d821a926df7f7e</field>
+    <field name="keywords">dateOfBirth model.Patient.dateOfBirth model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.toString</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a75c073d8bf4fbb90f77a67ad219d89a3</field>
+    <field name="keywords">toString model.Patient.toString model.Patient</field>
+    <field name="text">string-representation of the patient</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.setCareLevel</field>
+    <field name="args">(String careLevel)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a77b955fc62e49bc56a9efa50d6ea2375</field>
+    <field name="keywords">setCareLevel model.Patient.setCareLevel model.Patient</field>
+    <field name="text">careLevel new care level</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.getPid</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a82727c76e72f2f9694a881d77714cb6e</field>
+    <field name="keywords">getPid model.Patient.getPid model.Patient</field>
+    <field name="text">patient id</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.getDateOfBirth</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a8495945440379100f19af0aeeb75f5f8</field>
+    <field name="keywords">getDateOfBirth model.Patient.getDateOfBirth model.Patient</field>
+    <field name="text">date of birth as a string</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.pid</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a9dac06a2d248bbb80e4ad0418cb99ca6</field>
+    <field name="keywords">pid model.Patient.pid model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.setShown</field>
+    <field name="args">(boolean shown)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#a9eb9d53b77cf93c0c5bc25834bb9ef34</field>
+    <field name="keywords">setShown model.Patient.setShown model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.setDateOfBirth</field>
+    <field name="args">(String dateOfBirth)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#aa49698209c6abb19a2bb2ef0d280fd37</field>
+    <field name="keywords">setDateOfBirth model.Patient.setDateOfBirth model.Patient</field>
+    <field name="text">convert given param to a localDate and store as new birthOfDate dateOfBirth as string in the following format YYYY-MM-DD</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Patient.shown</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#abbec728a66ca97550b2c38db29436d84</field>
+    <field name="keywords">shown model.Patient.shown model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.Shown</field>
+    <field name="args">()</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#ac459be6be699c56a010f8801745c334d</field>
+    <field name="keywords">Shown model.Patient.Shown model.Patient</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.setRoomnumber</field>
+    <field name="args">(String roomnumber)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#ae89410f7b386c8f9aaec422d33f0db54</field>
+    <field name="keywords">setRoomnumber model.Patient.setRoomnumber model.Patient</field>
+    <field name="text">roomnumber</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Patient.Patient</field>
+    <field name="args">(String firstName, String surname, LocalDate dateOfBirth, String careLevel, String roomnumber, boolean shown)</field>
+    <field name="url">d7/d80/classmodel_1_1Patient.html#affd64504bc7cc67dede55d140e92841a</field>
+    <field name="keywords">Patient model.Patient.Patient model.Patient</field>
+    <field name="text">constructs a patient from the given params firstName surname dateOfBirth careLevel roomnumber</field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">DAO.java</field>
+    <field name="url">d8/d3b/DAO_8java.html</field>
+    <field name="keywords">DAO.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.MainWindowController</field>
+    <field name="url">d8/d45/classcontroller_1_1MainWindowController.html</field>
+    <field name="keywords">MainWindowController</field>
+    <field name="text">The MainWindowController contains the entire logic of the main window view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.MainWindowController.mainBorderPane</field>
+    <field name="url">d8/d45/classcontroller_1_1MainWindowController.html#a1e58571961d5288a027097bab977f728</field>
+    <field name="keywords">mainBorderPane controller.MainWindowController.mainBorderPane controller.MainWindowController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.MainWindowController.handleShowAllTreatments</field>
+    <field name="args">(ActionEvent e)</field>
+    <field name="url">d8/d45/classcontroller_1_1MainWindowController.html#a5bcf967a259f8f00b3ff363dc17e1acb</field>
+    <field name="keywords">handleShowAllTreatments controller.MainWindowController.handleShowAllTreatments controller.MainWindowController</field>
+    <field name="text">handles a show-all-treatments-click-event Loads AllTreatmentView and changes Scene e</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.MainWindowController.handleShowAllCaregivers</field>
+    <field name="args">(ActionEvent e)</field>
+    <field name="url">d8/d45/classcontroller_1_1MainWindowController.html#ab1d9aa12f32a9231c4c90161e536b2ad</field>
+    <field name="keywords">handleShowAllCaregivers controller.MainWindowController.handleShowAllCaregivers controller.MainWindowController</field>
+    <field name="text">handles a show-all-caregivers-click-event Loads AllCaregiverView and changes Scene e</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.MainWindowController.handleShowAllPatient</field>
+    <field name="args">(ActionEvent e)</field>
+    <field name="url">d8/d45/classcontroller_1_1MainWindowController.html#ab82d8961b60a6807f0d392971e217dc9</field>
+    <field name="keywords">handleShowAllPatient controller.MainWindowController.handleShowAllPatient controller.MainWindowController</field>
+    <field name="text">handles a show-all-patients-click-event Loads AllPatientView and changes Scene e</field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Patient.java</field>
+    <field name="url">d8/d46/Patient_8java.html</field>
+    <field name="keywords">Patient.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">model.Person</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html</field>
+    <field name="keywords">Person</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Person.getSurname</field>
+    <field name="args">()</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#a04cc23adea579ab41d7387f1d87633d4</field>
+    <field name="keywords">getSurname model.Person.getSurname model.Person</field>
+    <field name="text">surname</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Person.surname</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#a2930a9f61179aaa945174b7d43cb7269</field>
+    <field name="keywords">surname model.Person.surname model.Person</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Person.Person</field>
+    <field name="args">(String firstName, String surname)</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#a40ab97e6a31fca41c1a3b0bc6a8f999e</field>
+    <field name="keywords">Person model.Person.Person model.Person</field>
+    <field name="text">constructs a person from the given params constructs a person from the given params constructs a person from the given params firstName surname</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Person.setFirstName</field>
+    <field name="args">(String firstName)</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#a65498c28d727c989ad594b3bb3fd1dbd</field>
+    <field name="keywords">setFirstName model.Person.setFirstName model.Person</field>
+    <field name="text">firstName</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Person.getFirstName</field>
+    <field name="args">()</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#a7985b46a21b59b8019626198856f0271</field>
+    <field name="keywords">getFirstName model.Person.getFirstName model.Person</field>
+    <field name="text">firstname</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Person.setSurname</field>
+    <field name="args">(String surname)</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#ab026238e0bc011989280ef0e390b7929</field>
+    <field name="keywords">setSurname model.Person.setSurname model.Person</field>
+    <field name="text">surname</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Person.firstName</field>
+    <field name="url">d8/d58/classmodel_1_1Person.html#af7a359df4924cdc88321eaea02bc6126</field>
+    <field name="keywords">firstName model.Person.firstName model.Person</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">PatientDAO.java</field>
+    <field name="url">d8/d65/PatientDAO_8java.html</field>
+    <field name="keywords">PatientDAO.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Person.java</field>
+    <field name="url">d8/dca/Person_8java.html</field>
+    <field name="keywords">Person.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">AllTreatmentController.java</field>
+    <field name="url">d9/db2/AllTreatmentController_8java.html</field>
+    <field name="keywords">AllTreatmentController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.PatientDAO</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html</field>
+    <field name="keywords">PatientDAO</field>
+    <field name="text">Implements the Interface DAOImp Overrides methods to generate specific patient-SQL-queries</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getInstanceFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a1546fae0e2b7de05b40d2d521f279627</field>
+    <field name="keywords">getInstanceFromResultSet datastorage.PatientDAO.getInstanceFromResultSet datastorage.PatientDAO</field>
+    <field name="text">maps a ResultSet to a Patient result ResultSet with a single row Columns will be mapped to a patient-object patient with the data from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getReadByIDStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a3342e89e5fcf1c8cca749ab242b3f77f</field>
+    <field name="keywords">getReadByIDStatementString datastorage.PatientDAO.getReadByIDStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a select Statement for a given key key for which a specific SELECT is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getReadAllStatementString</field>
+    <field name="args">()</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a5c167500c09097284f7a4fe1dbf12136</field>
+    <field name="keywords">getReadAllStatementString datastorage.PatientDAO.getReadAllStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a SELECT Statement for all patients String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getListFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a772a3a9825873e297579b32b9f2613c2</field>
+    <field name="keywords">getListFromResultSet datastorage.PatientDAO.getListFromResultSet datastorage.PatientDAO</field>
+    <field name="text">maps a ResultSet to a Patient-List result ResultSet with a multiple rows Data will be mapped to patient-object ArrayList with patients from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getReadAllUnblockedStatementString</field>
+    <field name="args">()</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a867326b10929e0490ea6b5f9d5b323e5</field>
+    <field name="keywords">getReadAllUnblockedStatementString datastorage.PatientDAO.getReadAllUnblockedStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a SELECT Statement for all patients where the show variable is true String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getDeleteStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#a95e5f9236dd3d4d415d7ecd8670b90c9</field>
+    <field name="keywords">getDeleteStatementString datastorage.PatientDAO.getDeleteStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a delete Statement for a given key key for which a specific DELETE is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getUpdateStatementString</field>
+    <field name="args">(Patient patient)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#ad1c346493af83f65b8b5b5198f9c7e55</field>
+    <field name="keywords">getUpdateStatementString datastorage.PatientDAO.getUpdateStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a UPDATE Statement for a given patient patient for which a specific update is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.PatientDAO</field>
+    <field name="args">(Connection conn)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#aeb11d2d55112a201b81077671181d3d4</field>
+    <field name="keywords">PatientDAO datastorage.PatientDAO.PatientDAO datastorage.PatientDAO</field>
+    <field name="text">constructs Object Calls the Constructor from DAOImp to store the connection conn</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.PatientDAO.getCreateStatementString</field>
+    <field name="args">(Patient patient)</field>
+    <field name="url">d9/ddf/classdatastorage_1_1PatientDAO.html#aefd80505217647041f73e97d3954a449</field>
+    <field name="keywords">getCreateStatementString datastorage.PatientDAO.getCreateStatementString datastorage.PatientDAO</field>
+    <field name="text">generates a INSERT INTO Statement for a given patient patient for which a specific INSERT INTO is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.CaregiverDAO</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html</field>
+    <field name="keywords">CaregiverDAO</field>
+    <field name="text">Implements the Interface DAOImp Overrides methods to generate specific caregiver-SQL-queries</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getReadAllStatementString</field>
+    <field name="args">()</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#a41761d30927717956bea0983d83dc930</field>
+    <field name="keywords">getReadAllStatementString datastorage.CaregiverDAO.getReadAllStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a SELECT Statement for all caregivers String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getInstanceFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#a50d506256ce6579a2508d420e49a4e9d</field>
+    <field name="keywords">getInstanceFromResultSet datastorage.CaregiverDAO.getInstanceFromResultSet datastorage.CaregiverDAO</field>
+    <field name="text">maps a ResultSet to a Caregiver result ResultSet with a single row Columns will be mapped to a caregiver-object caregiver with the data from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.CaregiverDAO</field>
+    <field name="args">(Connection conn)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#a58bef64d87a29ad813c7b904630462b8</field>
+    <field name="keywords">CaregiverDAO datastorage.CaregiverDAO.CaregiverDAO datastorage.CaregiverDAO</field>
+    <field name="text">constructs Object Calls the Constructor from DAOImp to store the connection conn</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getCreateStatementString</field>
+    <field name="args">(Caregiver caregiver)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#a80844e35f12ca42ed8d4db7487e065cb</field>
+    <field name="keywords">getCreateStatementString datastorage.CaregiverDAO.getCreateStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a INSERT INTO Statement for a given caregiver caregiver for which a specific INSERT INTO is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getReadByIDStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#aa889de81a1b4fbaea608684be39659f1</field>
+    <field name="keywords">getReadByIDStatementString datastorage.CaregiverDAO.getReadByIDStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a select Statement for a given key key for which a specific SELECT is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getReadAllUnblockedStatementString</field>
+    <field name="args">()</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#aab546ec2f433c583dbd2c9ec9c2e30f2</field>
+    <field name="keywords">getReadAllUnblockedStatementString datastorage.CaregiverDAO.getReadAllUnblockedStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a SELECT Statement for all caregivers where the show variable is true String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getListFromResultSet</field>
+    <field name="args">(ResultSet result)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#aab5feec420d555764ea2db7337bbb50e</field>
+    <field name="keywords">getListFromResultSet datastorage.CaregiverDAO.getListFromResultSet datastorage.CaregiverDAO</field>
+    <field name="text">maps a ResultSet to a Caregiver-List result ResultSet with a multiple rows Data will be mapped to caregiver-object ArrayList with caregivers from the resultSet</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getDeleteStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#ad11f4f97a6da04c126cde1eaaf6d0390</field>
+    <field name="keywords">getDeleteStatementString datastorage.CaregiverDAO.getDeleteStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a delete Statement for a given key key for which a specific DELETE is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.CaregiverDAO.getUpdateStatementString</field>
+    <field name="args">(Caregiver caregiver)</field>
+    <field name="url">da/d16/classdatastorage_1_1CaregiverDAO.html#adb4ac67ab60d0bc6325da8ff668bbc3f</field>
+    <field name="keywords">getUpdateStatementString datastorage.CaregiverDAO.getUpdateStatementString datastorage.CaregiverDAO</field>
+    <field name="text">generates a UPDATE Statement for a given caregiver caregiver for which a specific update is to be created String with the generated SQL</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.NewTreatmentController</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html</field>
+    <field name="keywords">NewTreatmentController</field>
+    <field name="text">The NewTreatmentController contains the entire logic of the new treatment view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.dao</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a182c7736c7f9bee4cad9688616c01d37</field>
+    <field name="keywords">dao controller.NewTreatmentController.dao controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.tableviewContent</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a19e7a93619bbd5c7abc2593a05ae8cd7</field>
+    <field name="keywords">tableviewContent controller.NewTreatmentController.tableviewContent controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.controller</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a2439d457de65a14dac2f4fd638860c33</field>
+    <field name="keywords">controller controller.NewTreatmentController.controller controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.txtEnd</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a2fc0cf8e387bea51a57c753f7b8e905a</field>
+    <field name="keywords">txtEnd controller.NewTreatmentController.txtEnd controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.datepicker</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a460c4b44b3a6b459fce1f2aad9adce5b</field>
+    <field name="keywords">datepicker controller.NewTreatmentController.datepicker controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.comboBox</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a46708386abc659e9a64d6cc0dfe0db05</field>
+    <field name="keywords">comboBox controller.NewTreatmentController.comboBox controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.handleAdd</field>
+    <field name="args">()</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a499ea66ebbb38bda3612fa3f619b9cee</field>
+    <field name="keywords">handleAdd controller.NewTreatmentController.handleAdd controller.NewTreatmentController</field>
+    <field name="text">handles an add-click-event Takes in necessary data and calls createTreatment method</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.initialize</field>
+    <field name="args">(AllTreatmentController controller, Stage stage, Patient patient)</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a4e4898196d44a32033ef2af94d5bf4da</field>
+    <field name="keywords">initialize controller.NewTreatmentController.initialize controller.NewTreatmentController</field>
+    <field name="text">Initializes the corresponding fields Is called when clicked on btnNewTreatment</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.stage</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a5866f8d3460928110ab109cf022fa68b</field>
+    <field name="keywords">stage controller.NewTreatmentController.stage controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.handleCancel</field>
+    <field name="args">()</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a6eb6b088811a1589c2c02b58b2ed28b8</field>
+    <field name="keywords">handleCancel controller.NewTreatmentController.handleCancel controller.NewTreatmentController</field>
+    <field name="text">handles a cancel-click-event Closes the window</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.lblSurname</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a6f21304aa15f67d80b50e956fb091501</field>
+    <field name="keywords">lblSurname controller.NewTreatmentController.lblSurname controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.lblFirstname</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a81041b77a8c3611b240210b34527a998</field>
+    <field name="keywords">lblFirstname controller.NewTreatmentController.lblFirstname controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.txtBegin</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a8eca8d39b23e528a17f5a2cc48fc6b82</field>
+    <field name="keywords">txtBegin controller.NewTreatmentController.txtBegin controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.taRemarks</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#a932546b57f6df1bd43bdadd468ba26f7</field>
+    <field name="keywords">taRemarks controller.NewTreatmentController.taRemarks controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.patient</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#aa817aa3d8d1953bc327dcce4338cc236</field>
+    <field name="keywords">patient controller.NewTreatmentController.patient controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.caregiverList</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#aadbdfeee495ba11bd1b2517e89a96c50</field>
+    <field name="keywords">caregiverList controller.NewTreatmentController.caregiverList controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.searchInListCaregiver</field>
+    <field name="args">(String surname)</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#abebba31cb39df0ea9bed5063b2c591b0</field>
+    <field name="keywords">searchInListCaregiver controller.NewTreatmentController.searchInListCaregiver controller.NewTreatmentController</field>
+    <field name="text">Goes through List of all Caregivers surname String which all caregivers will be evaluated with caregiver with the corresponding surname</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.createComboBoxDataCaregiver</field>
+    <field name="args">()</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#ac8299dab17e083e4e05c55c45dd987e0</field>
+    <field name="keywords">createComboBoxDataCaregiver controller.NewTreatmentController.createComboBoxDataCaregiver controller.NewTreatmentController</field>
+    <field name="text">Sets Data that will be show when clicked on ComboBox</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.tableView</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#adb9d99e44fe1a10cf6f732559bb5743a</field>
+    <field name="keywords">tableView controller.NewTreatmentController.tableView controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.txtDescription</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#adfab465677b69908fd372eee19dded6d</field>
+    <field name="keywords">txtDescription controller.NewTreatmentController.txtDescription controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.createTreatment</field>
+    <field name="args">(Treatment treatment)</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#aed345eae8c46e95b6983c01b2a03e9b9</field>
+    <field name="keywords">createTreatment controller.NewTreatmentController.createTreatment controller.NewTreatmentController</field>
+    <field name="text">Creates a treatment and calls the create method in the TreatmentDAO treatment treatment which will be created in the dao</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.NewTreatmentController.showPatientData</field>
+    <field name="args">()</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#af86c5f9a41cc64da0483f80c066baf35</field>
+    <field name="keywords">showPatientData controller.NewTreatmentController.showPatientData controller.NewTreatmentController</field>
+    <field name="text">Sets full name of the Patient to be shown in the new Window</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.NewTreatmentController.myComboBoxData</field>
+    <field name="url">da/d90/classcontroller_1_1NewTreatmentController.html#af8cbcc46c091dc770ca553be01891a36</field>
+    <field name="keywords">myComboBoxData controller.NewTreatmentController.myComboBoxData controller.NewTreatmentController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">CaregiverDAO.java</field>
+    <field name="url">da/df4/CaregiverDAO_8java.html</field>
+    <field name="keywords">CaregiverDAO.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.DAOimp</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html</field>
+    <field name="keywords">DAOimp DAOimp&lt; Caregiver &gt; DAOimp&lt; Patient &gt; DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getCreateStatementString</field>
+    <field name="args">(T t)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a1cd63abe693d795375b4103355c2329f</field>
+    <field name="keywords">getCreateStatementString datastorage.DAOimp.getCreateStatementString datastorage.DAOimp&lt; T &gt; getCreateStatementString datastorage.DAOimp&lt; Caregiver &gt;::getCreateStatementString datastorage.DAOimp&lt; Caregiver &gt; getCreateStatementString datastorage.DAOimp&lt; Patient &gt;::getCreateStatementString datastorage.DAOimp&lt; Patient &gt; getCreateStatementString datastorage.DAOimp&lt; Treatment &gt;::getCreateStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getListFromResultSet</field>
+    <field name="args">(ResultSet set)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a1f0fcbb5b757af15b198c1d52fc0158b</field>
+    <field name="keywords">getListFromResultSet datastorage.DAOimp.getListFromResultSet datastorage.DAOimp&lt; T &gt; getListFromResultSet datastorage.DAOimp&lt; Caregiver &gt;::getListFromResultSet datastorage.DAOimp&lt; Caregiver &gt; getListFromResultSet datastorage.DAOimp&lt; Patient &gt;::getListFromResultSet datastorage.DAOimp&lt; Patient &gt; getListFromResultSet datastorage.DAOimp&lt; Treatment &gt;::getListFromResultSet datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.deleteById</field>
+    <field name="args">(long key)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a2d4cbdf5e07aed21ecf21bd903e9646b</field>
+    <field name="keywords">deleteById datastorage.DAOimp.deleteById datastorage.DAOimp&lt; T &gt; deleteById datastorage.DAOimp&lt; Caregiver &gt;::deleteById datastorage.DAOimp&lt; Caregiver &gt; deleteById datastorage.DAOimp&lt; Patient &gt;::deleteById datastorage.DAOimp&lt; Patient &gt; deleteById datastorage.DAOimp&lt; Treatment &gt;::deleteById datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">calls getDeleteStatementString method with key calls getDeleteStatementString method with key key id of Object which gets deleted SQLException calls getDeleteStatementString method with key calls getDeleteStatementString method with key</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getReadAllUnblockedStatementString</field>
+    <field name="args">()</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a3878f193969ec84b41892041a635d1a1</field>
+    <field name="keywords">getReadAllUnblockedStatementString datastorage.DAOimp.getReadAllUnblockedStatementString datastorage.DAOimp&lt; T &gt; getReadAllUnblockedStatementString datastorage.DAOimp&lt; Caregiver &gt;::getReadAllUnblockedStatementString datastorage.DAOimp&lt; Caregiver &gt; getReadAllUnblockedStatementString datastorage.DAOimp&lt; Patient &gt;::getReadAllUnblockedStatementString datastorage.DAOimp&lt; Patient &gt; getReadAllUnblockedStatementString datastorage.DAOimp&lt; Treatment &gt;::getReadAllUnblockedStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getDeleteStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a43fa8354fdea415035af6ba81cb28d88</field>
+    <field name="keywords">getDeleteStatementString datastorage.DAOimp.getDeleteStatementString datastorage.DAOimp&lt; T &gt; getDeleteStatementString datastorage.DAOimp&lt; Caregiver &gt;::getDeleteStatementString datastorage.DAOimp&lt; Caregiver &gt; getDeleteStatementString datastorage.DAOimp&lt; Patient &gt;::getDeleteStatementString datastorage.DAOimp&lt; Patient &gt; getDeleteStatementString datastorage.DAOimp&lt; Treatment &gt;::getDeleteStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.readAllUnblocked</field>
+    <field name="args">()</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a62348aba3d586903f2d54d6bd3973338</field>
+    <field name="keywords">readAllUnblocked datastorage.DAOimp.readAllUnblocked datastorage.DAOimp&lt; T &gt; readAllUnblocked datastorage.DAOimp&lt; Caregiver &gt;::readAllUnblocked datastorage.DAOimp&lt; Caregiver &gt; readAllUnblocked datastorage.DAOimp&lt; Patient &gt;::readAllUnblocked datastorage.DAOimp&lt; Patient &gt; readAllUnblocked datastorage.DAOimp&lt; Treatment &gt;::readAllUnblocked datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">calls getReadAllUnblockedStatementString method and makes a new list of objects out of the result calls getReadAllUnblockedStatementString method and makes a new list of objects out of the result list of objects SQLException calls getReadAllUnblockedStatementString method and makes a new list of objects out of the result calls getReadAllUnblockedStatementString method and makes a new list of objects out of the result</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.readAll</field>
+    <field name="args">()</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a7942f9127f6f5e6bd3e1b3dd1a989b82</field>
+    <field name="keywords">readAll datastorage.DAOimp.readAll datastorage.DAOimp&lt; T &gt; readAll datastorage.DAOimp&lt; Caregiver &gt;::readAll datastorage.DAOimp&lt; Caregiver &gt; readAll datastorage.DAOimp&lt; Patient &gt;::readAll datastorage.DAOimp&lt; Patient &gt; readAll datastorage.DAOimp&lt; Treatment &gt;::readAll datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">calls getReadAllStatementString method and makes a new list of objects out of the result calls getReadAllStatementString method and makes a new list of objects out of the result list of objects SQLException calls getReadAllStatementString method and makes a new list of objects out of the result calls getReadAllStatementString method and makes a new list of objects out of the result</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getConn</field>
+    <field name="args">()</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a7cba120c50eff4cac29dfc5605841e74</field>
+    <field name="keywords">getConn datastorage.DAOimp.getConn datastorage.DAOimp&lt; T &gt; getConn datastorage.DAOimp&lt; Caregiver &gt;::getConn datastorage.DAOimp&lt; Caregiver &gt; getConn datastorage.DAOimp&lt; Patient &gt;::getConn datastorage.DAOimp&lt; Patient &gt; getConn datastorage.DAOimp&lt; Treatment &gt;::getConn datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.DAOimp</field>
+    <field name="args">(Connection conn)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a83d089a3160df3ee162245dc966c9388</field>
+    <field name="keywords">DAOimp datastorage.DAOimp.DAOimp datastorage.DAOimp&lt; T &gt; DAOimp datastorage.DAOimp&lt; Caregiver &gt;::DAOimp datastorage.DAOimp&lt; Caregiver &gt; DAOimp datastorage.DAOimp&lt; Patient &gt;::DAOimp datastorage.DAOimp&lt; Patient &gt; DAOimp datastorage.DAOimp&lt; Treatment &gt;::DAOimp datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">sets Connection sets Connection conn sets Connection sets Connection</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.update</field>
+    <field name="args">(T t)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#a9469bdb0627770a5b3220c1739275ac9</field>
+    <field name="keywords">update datastorage.DAOimp.update datastorage.DAOimp&lt; T &gt; update datastorage.DAOimp&lt; Caregiver &gt;::update datastorage.DAOimp&lt; Caregiver &gt; update datastorage.DAOimp&lt; Patient &gt;::update datastorage.DAOimp&lt; Patient &gt; update datastorage.DAOimp&lt; Treatment &gt;::update datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">calls getUpdateStatementString method with object calls getUpdateStatementString method with object t Object which gets updated SQLException calls getUpdateStatementString method with object calls getUpdateStatementString method with object</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getReadAllStatementString</field>
+    <field name="args">()</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#aa58ff71259a0cd1811eaf5bf80901370</field>
+    <field name="keywords">getReadAllStatementString datastorage.DAOimp.getReadAllStatementString datastorage.DAOimp&lt; T &gt; getReadAllStatementString datastorage.DAOimp&lt; Caregiver &gt;::getReadAllStatementString datastorage.DAOimp&lt; Caregiver &gt; getReadAllStatementString datastorage.DAOimp&lt; Patient &gt;::getReadAllStatementString datastorage.DAOimp&lt; Patient &gt; getReadAllStatementString datastorage.DAOimp&lt; Treatment &gt;::getReadAllStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">datastorage.DAOimp.conn</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#aa9d680f4af781b7ee8a9650a24eada1b</field>
+    <field name="keywords">conn datastorage.DAOimp.conn datastorage.DAOimp&lt; T &gt; conn datastorage.DAOimp&lt; Caregiver &gt;::conn datastorage.DAOimp&lt; Caregiver &gt; conn datastorage.DAOimp&lt; Patient &gt;::conn datastorage.DAOimp&lt; Patient &gt; conn datastorage.DAOimp&lt; Treatment &gt;::conn datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.create</field>
+    <field name="args">(T t)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#aac63f119bf9373eeed92a675ad5071fa</field>
+    <field name="keywords">create datastorage.DAOimp.create datastorage.DAOimp&lt; T &gt; create datastorage.DAOimp&lt; Caregiver &gt;::create datastorage.DAOimp&lt; Caregiver &gt; create datastorage.DAOimp&lt; Patient &gt;::create datastorage.DAOimp&lt; Patient &gt; create datastorage.DAOimp&lt; Treatment &gt;::create datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">creates a new Statement of the given Object creates a new Statement of the given Object t SQLException creates a new Statement of the given Object creates a new Statement of the given Object</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getInstanceFromResultSet</field>
+    <field name="args">(ResultSet set)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#ac174d76e4e51c426ab6557dec84c4962</field>
+    <field name="keywords">getInstanceFromResultSet datastorage.DAOimp.getInstanceFromResultSet datastorage.DAOimp&lt; T &gt; getInstanceFromResultSet datastorage.DAOimp&lt; Caregiver &gt;::getInstanceFromResultSet datastorage.DAOimp&lt; Caregiver &gt; getInstanceFromResultSet datastorage.DAOimp&lt; Patient &gt;::getInstanceFromResultSet datastorage.DAOimp&lt; Patient &gt; getInstanceFromResultSet datastorage.DAOimp&lt; Treatment &gt;::getInstanceFromResultSet datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getReadByIDStatementString</field>
+    <field name="args">(long key)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#ac561cd7847aad0687ff655bddde862d1</field>
+    <field name="keywords">getReadByIDStatementString datastorage.DAOimp.getReadByIDStatementString datastorage.DAOimp&lt; T &gt; getReadByIDStatementString datastorage.DAOimp&lt; Caregiver &gt;::getReadByIDStatementString datastorage.DAOimp&lt; Caregiver &gt; getReadByIDStatementString datastorage.DAOimp&lt; Patient &gt;::getReadByIDStatementString datastorage.DAOimp&lt; Patient &gt; getReadByIDStatementString datastorage.DAOimp&lt; Treatment &gt;::getReadByIDStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.read</field>
+    <field name="args">(long key)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#af215c392595bba224a1b9049f11d66d3</field>
+    <field name="keywords">read datastorage.DAOimp.read datastorage.DAOimp&lt; T &gt; read datastorage.DAOimp&lt; Caregiver &gt;::read datastorage.DAOimp&lt; Caregiver &gt; read datastorage.DAOimp&lt; Patient &gt;::read datastorage.DAOimp&lt; Patient &gt; read datastorage.DAOimp&lt; Treatment &gt;::read datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text">calls getReadByIDStatementString method and makes a new object out of the result calls getReadByIDStatementString method and makes a new object out of the result key id after which is being evaluated found object SQLException calls getReadByIDStatementString method and makes a new object out of the result calls getReadByIDStatementString method and makes a new object out of the result</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOimp.getUpdateStatementString</field>
+    <field name="args">(T t)</field>
+    <field name="url">db/d11/classdatastorage_1_1DAOimp.html#af62dfafb3074ef9c6f339b1ca81877eb</field>
+    <field name="keywords">getUpdateStatementString datastorage.DAOimp.getUpdateStatementString datastorage.DAOimp&lt; T &gt; getUpdateStatementString datastorage.DAOimp&lt; Caregiver &gt;::getUpdateStatementString datastorage.DAOimp&lt; Caregiver &gt; getUpdateStatementString datastorage.DAOimp&lt; Patient &gt;::getUpdateStatementString datastorage.DAOimp&lt; Patient &gt; getUpdateStatementString datastorage.DAOimp&lt; Treatment &gt;::getUpdateStatementString datastorage.DAOimp&lt; Treatment &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MainWindowController.java</field>
+    <field name="url">db/d2c/MainWindowController_8java.html</field>
+    <field name="keywords">MainWindowController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">TreatmentController.java</field>
+    <field name="url">db/d3c/TreatmentController_8java.html</field>
+    <field name="keywords">TreatmentController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">datastorage.DAOFactory</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html</field>
+    <field name="keywords">DAOFactory</field>
+    <field name="text">creates the DAOs for the Patient Treatment and Caregiver</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOFactory.createTreatmentDAO</field>
+    <field name="args">()</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#a0df05e282b9c6c3e904c8a25457ec956</field>
+    <field name="keywords">createTreatmentDAO datastorage.DAOFactory.createTreatmentDAO datastorage.DAOFactory</field>
+    <field name="text">creates a new instance of the TreatmentDAO instance of the TreatmentDAO</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOFactory.createCaregiverDAO</field>
+    <field name="args">()</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#a245dea0aa1e64652b90cd158b9c5c0d2</field>
+    <field name="keywords">createCaregiverDAO datastorage.DAOFactory.createCaregiverDAO datastorage.DAOFactory</field>
+    <field name="text">creates a new instance of the CaregiverDAO instance of the CaregiverDAO</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOFactory.getDAOFactory</field>
+    <field name="args">()</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#a489d0947d5e2601ff8617b5e45cbea12</field>
+    <field name="keywords">getDAOFactory datastorage.DAOFactory.getDAOFactory datastorage.DAOFactory</field>
+    <field name="text">Singleton which instantiates a new Object of this class if none already exists instance of a new object of this class</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">datastorage.DAOFactory.instance</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#ab277a1e9395f93040816b63ea5ff8910</field>
+    <field name="keywords">instance datastorage.DAOFactory.instance datastorage.DAOFactory</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOFactory.createPatientDAO</field>
+    <field name="args">()</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#abfd67b61c9fd5dc63362422bc30ca5e3</field>
+    <field name="keywords">createPatientDAO datastorage.DAOFactory.createPatientDAO datastorage.DAOFactory</field>
+    <field name="text">creates a new instance of the PatientDAO instance of the PatientDAO</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAOFactory.DAOFactory</field>
+    <field name="args">()</field>
+    <field name="url">db/d7f/classdatastorage_1_1DAOFactory.html#ad381ed774680f7634e4d4ef879b039ae</field>
+    <field name="keywords">DAOFactory datastorage.DAOFactory.DAOFactory datastorage.DAOFactory</field>
+    <field name="text">privater constructor to prevent free initializing of a new object</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">account</field>
+    <field name="url">db/d92/namespaceaccount.html</field>
+    <field name="keywords">account</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Sha256.java</field>
+    <field name="url">db/d9f/Sha256_8java.html</field>
+    <field name="keywords">Sha256.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">TreatmentDAO.java</field>
+    <field name="url">db/ddd/TreatmentDAO_8java.html</field>
+    <field name="keywords">TreatmentDAO.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">model</field>
+    <field name="url">db/dee/namespacemodel.html</field>
+    <field name="keywords">model</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.Main</field>
+    <field name="url">dc/dcb/classcontroller_1_1Main.html</field>
+    <field name="keywords">Main</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.Main.start</field>
+    <field name="args">(Stage primaryStage)</field>
+    <field name="url">dc/dcb/classcontroller_1_1Main.html#a03f8d256c33af852d2a1534aefaec84b</field>
+    <field name="keywords">start controller.Main.start controller.Main</field>
+    <field name="text">starts the application sets the primaryStage and class the mainWindow method primaryStage primaryStage which sets the primaryStage in the class</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.Main.main</field>
+    <field name="args">(String[] args)</field>
+    <field name="url">dc/dcb/classcontroller_1_1Main.html#a0528dfd5856ba486563cc3a3fec1531e</field>
+    <field name="keywords">main controller.Main.main controller.Main</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.Main.mainWindow</field>
+    <field name="args">()</field>
+    <field name="url">dc/dcb/classcontroller_1_1Main.html#a63119906ad578b75a2fe9a94e43387eb</field>
+    <field name="keywords">mainWindow controller.Main.mainWindow controller.Main</field>
+    <field name="text">loads LoginWindowView and sets it as the current scene</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.Main.primaryStage</field>
+    <field name="url">dc/dcb/classcontroller_1_1Main.html#ab8d3f80a19bc94984019f0fff2861cc3</field>
+    <field name="keywords">primaryStage controller.Main.primaryStage controller.Main</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">model.Treatment</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html</field>
+    <field name="keywords">Treatment</field>
+    <field name="text">Treatments are the work the caregivers do to the patients</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getTid</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a05f795607361a2d1a7dba722418b9340</field>
+    <field name="keywords">getTid model.Treatment.getTid model.Treatment</field>
+    <field name="text">treatment id</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.date</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a07dcd5e23752bdb3e8cbfe431585d7ec</field>
+    <field name="keywords">date model.Treatment.date model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.isShown</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a0a92e8d7da85f579c23b31cff0cd79d6</field>
+    <field name="keywords">isShown model.Treatment.isShown model.Treatment</field>
+    <field name="text">shown</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getPid</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a18cf306e491c358d6f3a8672be58fa45</field>
+    <field name="keywords">getPid model.Treatment.getPid model.Treatment</field>
+    <field name="text">patient id</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.tid</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a208690cdf8e30d1f8621325e2f8b0b72</field>
+    <field name="keywords">tid model.Treatment.tid model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setEnd</field>
+    <field name="args">(String end)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a20df1785c4db15c937fabf318676935c</field>
+    <field name="keywords">setEnd model.Treatment.setEnd model.Treatment</field>
+    <field name="text">convert given param to a localDate and store as new end end as string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setBegin</field>
+    <field name="args">(String begin)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a24cd6016194deddfaed192a107b92849</field>
+    <field name="keywords">setBegin model.Treatment.setBegin model.Treatment</field>
+    <field name="text">convert given param to a localDate and store as new begin begin as string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.Treatment</field>
+    <field name="args">(long tid, long pid, long cid, LocalDate date, LocalTime begin, LocalTime end, String description, String remarks, boolean shown)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a2e619acbb848f8eee4e1d20c7ef30070</field>
+    <field name="keywords">Treatment model.Treatment.Treatment model.Treatment</field>
+    <field name="text">constructs a treatment from the given params tid pid cid date begin end description remarks shown</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.toString</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a386804bf4c1ff10c045dad19354363ab</field>
+    <field name="keywords">toString model.Treatment.toString model.Treatment</field>
+    <field name="text">string-representation of the treatment</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.Treatment</field>
+    <field name="args">(long pid, long cid, LocalDate date, LocalTime begin, LocalTime end, String description, String remarks, boolean shown)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a4ce6f69de9f286dcc51c68693b260546</field>
+    <field name="keywords">Treatment model.Treatment.Treatment model.Treatment</field>
+    <field name="text">constructs a treatment from the given params pid cid date begin end description remarks shown</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getDescription</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a68890c4871d37a733869051a30800d8c</field>
+    <field name="keywords">getDescription model.Treatment.getDescription model.Treatment</field>
+    <field name="text">description</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getCid</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a6cde93938d40a80388fc3f22e5dd2ddd</field>
+    <field name="keywords">getCid model.Treatment.getCid model.Treatment</field>
+    <field name="text">caregiver id</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.end</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a7e2366443e2526fa7d862adb1365cc2d</field>
+    <field name="keywords">end model.Treatment.end model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.description</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a7ec29698cf91a84721368df95f2b5289</field>
+    <field name="keywords">description model.Treatment.description model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getEnd</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a818867c5bbe5e15ef69f17a28449403b</field>
+    <field name="keywords">getEnd model.Treatment.getEnd model.Treatment</field>
+    <field name="text">end time of the treatment as a String</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.remarks</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a93d9ef9e425d1a56fc0324a4b7ba68a3</field>
+    <field name="keywords">remarks model.Treatment.remarks model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setShown</field>
+    <field name="args">(boolean shown)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#a9b2b75a157a2b3ed2305dbb803b99389</field>
+    <field name="keywords">setShown model.Treatment.setShown model.Treatment</field>
+    <field name="text">shown new shown</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.shown</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#ab2380f3bff68fdab5ac778450a1b9bbc</field>
+    <field name="keywords">shown model.Treatment.shown model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getBegin</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#ab57cf69c426a78ee03f48703c812c730</field>
+    <field name="keywords">getBegin model.Treatment.getBegin model.Treatment</field>
+    <field name="text">begin time of the treatment as a String</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setDescription</field>
+    <field name="args">(String description)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#ab7be7aa4a389b86d533e7b74814a532e</field>
+    <field name="keywords">setDescription model.Treatment.setDescription model.Treatment</field>
+    <field name="text">description new description</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.pid</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#abf73b85d754f226c4dcff3460d8ee8f1</field>
+    <field name="keywords">pid model.Treatment.pid model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getDate</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#acb89a4cc6debb2c0fd1f497f3dd27834</field>
+    <field name="keywords">getDate model.Treatment.getDate model.Treatment</field>
+    <field name="text">date as a String</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.getRemarks</field>
+    <field name="args">()</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#acd028e914470a14adb23a2f4020a96b8</field>
+    <field name="keywords">getRemarks model.Treatment.getRemarks model.Treatment</field>
+    <field name="text">remarks</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setDate</field>
+    <field name="args">(String s_date)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#ad9a1ca25154c53c70802df3517fa6cf2</field>
+    <field name="keywords">setDate model.Treatment.setDate model.Treatment</field>
+    <field name="text">convert given param to a localDate and store as new date s_date as string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">model.Treatment.setRemarks</field>
+    <field name="args">(String remarks)</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#adf6d34343e864abf7911262417329962</field>
+    <field name="keywords">setRemarks model.Treatment.setRemarks model.Treatment</field>
+    <field name="text">remarks new remarks</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.cid</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#af0377a9551f25582fccf6788c76a2ed2</field>
+    <field name="keywords">cid model.Treatment.cid model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">model.Treatment.begin</field>
+    <field name="url">dc/de5/classmodel_1_1Treatment.html#af2ee493da0ba3b914ff76cb6e9b08c02</field>
+    <field name="keywords">begin model.Treatment.begin model.Treatment</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Treatment.java</field>
+    <field name="url">dd/da0/Treatment_8java.html</field>
+    <field name="keywords">Treatment.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">ConnectionBuilder.java</field>
+    <field name="url">dd/df5/ConnectionBuilder_8java.html</field>
+    <field name="keywords">ConnectionBuilder.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">DAOFactory.java</field>
+    <field name="url">dd/dfc/DAOFactory_8java.html</field>
+    <field name="keywords">DAOFactory.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">controller.LoginWindowController</field>
+    <field name="url">de/d0d/classcontroller_1_1LoginWindowController.html</field>
+    <field name="keywords">LoginWindowController</field>
+    <field name="text">The LoginWindowController contains the entire logic of the login view It determines which data is displayed and how to react to events</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">controller.LoginWindowController.handleLogin</field>
+    <field name="args">(ActionEvent e)</field>
+    <field name="url">de/d0d/classcontroller_1_1LoginWindowController.html#a53c958056d6d0f59d2c63b05d5b4cb25</field>
+    <field name="keywords">handleLogin controller.LoginWindowController.handleLogin controller.LoginWindowController</field>
+    <field name="text">handles a login-click-event Checks the user credentials and changes the window to the main view if the credentials are correct else wise shows an alert On successful login loads the MainWindowView</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.LoginWindowController.txtUsername</field>
+    <field name="url">de/d0d/classcontroller_1_1LoginWindowController.html#a7ca51ae426ac92e64a032ae0008529c2</field>
+    <field name="keywords">txtUsername controller.LoginWindowController.txtUsername controller.LoginWindowController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.LoginWindowController.mainBorderPane</field>
+    <field name="url">de/d0d/classcontroller_1_1LoginWindowController.html#ac577cb7c335630db68dba01af0c43d3e</field>
+    <field name="keywords">mainBorderPane controller.LoginWindowController.mainBorderPane controller.LoginWindowController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">controller.LoginWindowController.txtPassword</field>
+    <field name="url">de/d0d/classcontroller_1_1LoginWindowController.html#aebc9151c5938402a6ac5196b223035a9</field>
+    <field name="keywords">txtPassword controller.LoginWindowController.txtPassword controller.LoginWindowController</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">interface</field>
+    <field name="name">datastorage.DAO</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html</field>
+    <field name="keywords">DAO</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.read</field>
+    <field name="args">(long key)</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#a0a7077289478886b8ceb5876455f813b</field>
+    <field name="keywords">read datastorage.DAO.read datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.deleteById</field>
+    <field name="args">(long key)</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#a378c0947d790e6bc5001148f66c3e5bd</field>
+    <field name="keywords">deleteById datastorage.DAO.deleteById datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.readAllUnblocked</field>
+    <field name="args">()</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#a3b49b0f6b9bbf3620494ef1d37868cf6</field>
+    <field name="keywords">readAllUnblocked datastorage.DAO.readAllUnblocked datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.update</field>
+    <field name="args">(T t)</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#a90ef246f54cfeefdb9acd961d3afed88</field>
+    <field name="keywords">update datastorage.DAO.update datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.readAll</field>
+    <field name="args">()</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#ae94bd8185c28afa981123bce5a6e8592</field>
+    <field name="keywords">readAll datastorage.DAO.readAll datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">datastorage.DAO.create</field>
+    <field name="args">(T t)</field>
+    <field name="url">de/de4/interfacedatastorage_1_1DAO.html#afcd539ce941728de3c59dc493772b3b2</field>
+    <field name="keywords">create datastorage.DAO.create datastorage.DAO&lt; T &gt;</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">LoginWindowController.java</field>
+    <field name="url">df/d40/LoginWindowController_8java.html</field>
+    <field name="keywords">LoginWindowController.java</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">controller</field>
+    <field name="url">df/dea/namespacecontroller.html</field>
+    <field name="keywords">controller</field>
+    <field name="text"></field>
+  </doc>
+</add>

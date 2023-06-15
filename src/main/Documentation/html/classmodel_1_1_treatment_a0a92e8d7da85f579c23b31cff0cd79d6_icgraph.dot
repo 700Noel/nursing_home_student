@@ -1,0 +1,10 @@
+digraph "model.Treatment.isShown"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="model.Treatment.isShown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.TreatmentDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_treatment_d_a_o.html#a7f01dbb78b475e780b155c7d615a6345",tooltip=" "];
+}

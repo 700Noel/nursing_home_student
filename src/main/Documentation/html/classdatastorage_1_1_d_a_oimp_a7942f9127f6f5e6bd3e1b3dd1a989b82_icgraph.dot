@@ -1,0 +1,14 @@
+digraph "datastorage.DAOimp.readAll"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="datastorage.DAOimp.readAll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="controller.NewTreatmentController.create\lComboBoxDataCaregiver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_new_treatment_controller.html#ac8299dab17e083e4e05c55c45dd987e0",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.NewTreatmentController.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_new_treatment_controller.html#a4e4898196d44a32033ef2af94d5bf4da",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="controller.AllTreatmentController.handle\lComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_all_treatment_controller.html#a5c90fdc050b57ba044aa0d78ea68275d",tooltip=" "];
+}

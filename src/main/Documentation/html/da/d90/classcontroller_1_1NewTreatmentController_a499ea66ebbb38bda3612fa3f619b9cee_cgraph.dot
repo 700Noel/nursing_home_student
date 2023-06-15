@@ -1,0 +1,32 @@
+digraph "controller.NewTreatmentController.handleAdd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="controller.NewTreatmentController.handleAdd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="handles an add-click-event."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="utils.DateConverter.convert\lStringToLocalTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d85/classutils_1_1DateConverter.html#ab41561bd0869c95c0d4046ba2dee7ab2",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="controller.NewTreatmentController.create\lTreatment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#aed345eae8c46e95b6983c01b2a03e9b9",tooltip="Creates a treatment and calls the create method in the TreatmentDAO."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.DAOimp.create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#aac63f119bf9373eeed92a675ad5071fa",tooltip="creates a new Statement of the given Object"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.DAOimp.getCreate\lStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d11/classdatastorage_1_1DAOimp.html#a1cd63abe693d795375b4103355c2329f",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="datastorage.DAOFactory.create\lTreatmentDAO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a0df05e282b9c6c3e904c8a25457ec956",tooltip="creates a new instance of the TreatmentDAO"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="datastorage.ConnectionBuilder.get\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a217c33442528663e5d3199ade7c19ed1",tooltip="when no Connection has been made, initializes a new ConnectionBuilder"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="datastorage.ConnectionBuilder.\lConnectionBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d58/classdatastorage_1_1ConnectionBuilder.html#a9af3a7f1e527e35fae23c4e06e6494e7",tooltip="creates connection to back-end"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="datastorage.DAOFactory.get\lDAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#a489d0947d5e2601ff8617b5e45cbea12",tooltip="Singleton which instantiates a new Object of this class if none already exists."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="datastorage.DAOFactory.DAOFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/classdatastorage_1_1DAOFactory.html#ad381ed774680f7634e4d4ef879b039ae",tooltip="privater constructor to prevent free initializing of a new object"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="model.Caregiver.getId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d72/classmodel_1_1Caregiver.html#a22f7dd913d090f36bec91834414355ca",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="model.Patient.getPid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d80/classmodel_1_1Patient.html#a82727c76e72f2f9694a881d77714cb6e",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="controller.NewTreatmentController.search\lInListCaregiver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d90/classcontroller_1_1NewTreatmentController.html#abebba31cb39df0ea9bed5063b2c591b0",tooltip="Goes through List of all Caregivers."];
+}

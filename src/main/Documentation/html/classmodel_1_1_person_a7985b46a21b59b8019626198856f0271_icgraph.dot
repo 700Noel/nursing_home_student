@@ -1,0 +1,28 @@
+digraph "model.Person.getFirstName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="model.Person.getFirstName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="datastorage.CaregiverDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_caregiver_d_a_o.html#a80844e35f12ca42ed8d4db7487e065cb",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="datastorage.PatientDAO.get\lCreateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_patient_d_a_o.html#aefd80505217647041f73e97d3954a449",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="datastorage.CaregiverDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_caregiver_d_a_o.html#adb4ac67ab60d0bc6325da8ff668bbc3f",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="datastorage.PatientDAO.get\lUpdateStatementString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdatastorage_1_1_patient_d_a_o.html#ad1c346493af83f65b8b5b5198f9c7e55",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="controller.TreatmentController.showData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_treatment_controller.html#a8c1d89f665772981480a87c475591426",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="controller.TreatmentController.initialize\lController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_treatment_controller.html#a14be0c5a3f94f6cbdf40a69a4f06d62a",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="controller.NewTreatmentController.show\lPatientData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_new_treatment_controller.html#af86c5f9a41cc64da0483f80c066baf35",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="controller.NewTreatmentController.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcontroller_1_1_new_treatment_controller.html#a4e4898196d44a32033ef2af94d5bf4da",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="model.Caregiver.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_caregiver.html#adb76bf07c2a11a1aed2d4adaca2cf8c5",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="model.Patient.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_1_1_patient.html#a75c073d8bf4fbb90f77a67ad219d89a3",tooltip=" "];
+}
