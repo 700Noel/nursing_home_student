@@ -78,7 +78,7 @@ public class AllTreatmentController {
         this.dao = DAOFactory.getDAOFactory().createTreatmentDAO();
         List<Treatment> allTreatments;
         try {
-            allTreatments = dao.readAll();
+            allTreatments = dao.readAllUnblocked();
             for (Treatment treatment : allTreatments) {
                 this.tableviewContent.add(treatment);
             }
@@ -90,7 +90,7 @@ public class AllTreatmentController {
     private void createComboBoxDataPatient(){
         PatientDAO dao = DAOFactory.getDAOFactory().createPatientDAO();
         try {
-            patientList = (ArrayList<Patient>) dao.readAll();
+            patientList = (ArrayList<Patient>) dao.readAllUnblocked();
             this.myComboBoxData.add("alle");
             for (Patient patient: patientList) {
                 this.myComboBoxData.add(patient.getSurname());

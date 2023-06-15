@@ -5,7 +5,9 @@ import model.Caregiver;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class CaregiverDAO extends DAOimp<Caregiver>{
     public CaregiverDAO(Connection conn) {
@@ -14,8 +16,8 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
 
     @Override
     protected String getCreateStatementString(Caregiver caregiver) {
-        return String.format("INSERT INTO caregiver (firstname, surname, telephone, show) VALUES ('%s', '%s', '%s', '%s')",
-                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), true);
+        return String.format("INSERT INTO caregiver (firstname, surname, telephone, show, blockeddate) VALUES ('%s', '%s', '%s', '%s', %s)",
+                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), true, null);
     }
 
     @Override
@@ -33,6 +35,11 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
 
     @Override
     protected String getReadAllStatementString() {
+        return "SELECT * FROM caregiver";
+    }
+
+    @Override
+    protected String getReadAllUnblockedStatementString() {
         return "SELECT * FROM caregiver WHERE show = true";
     }
 
@@ -50,8 +57,8 @@ public class CaregiverDAO extends DAOimp<Caregiver>{
 
     @Override
     protected String getUpdateStatementString(Caregiver caregiver) {
-        return String.format("UPDATE caregiver SET firstname = '%s', surname = '%s', telephone = '%s', SHOW = '%s' WHERE id = %d",
-                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), caregiver.isShown(), caregiver.getId());
+        return String.format("UPDATE caregiver SET firstname = '%s', surname = '%s', telephone = '%s', SHOW = '%s', blockeddate = %s  WHERE id = %d",
+                caregiver.getFirstName(), caregiver.getSurname(), caregiver.getTelephone(), caregiver.isShown(), caregiver.isShown() ? "NULL" : "'" + new SimpleDateFormat("yyyy-MM-dd").format(Calendar.getInstance().getTime()) + "'",caregiver.getId());
     }
 
     @Override

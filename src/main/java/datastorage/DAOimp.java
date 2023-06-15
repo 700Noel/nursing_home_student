@@ -40,6 +40,15 @@ public abstract class DAOimp<T> implements DAO<T>{
         list = getListFromResultSet(result);
         return list;
     }
+    @Override
+    public List<T> readAllUnblocked() throws SQLException {
+        ArrayList<T> list = new ArrayList<T>();
+        T object = null;
+        Statement st = conn.createStatement();
+        ResultSet result = st.executeQuery(getReadAllUnblockedStatementString());
+        list = getListFromResultSet(result);
+        return list;
+    }
 
     @Override
     public void update(T t) throws SQLException {
@@ -60,6 +69,8 @@ public abstract class DAOimp<T> implements DAO<T>{
     protected abstract T getInstanceFromResultSet(ResultSet set) throws SQLException;
 
     protected abstract String getReadAllStatementString();
+
+    protected abstract String getReadAllUnblockedStatementString();
 
     protected abstract ArrayList<T> getListFromResultSet(ResultSet set) throws SQLException;
 

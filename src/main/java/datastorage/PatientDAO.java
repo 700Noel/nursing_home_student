@@ -5,8 +5,13 @@ import utils.DateConverter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
+import java.time.Clock;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.logging.Logger;
 
 /**
  * Implements the Interface <code>DAOImp</code>. Overrides methods to generate specific patient-SQL-queries.
@@ -28,8 +33,8 @@ public class PatientDAO extends DAOimp<Patient> {
      */
     @Override
     protected String getCreateStatementString(Patient patient) {
-        return String.format("INSERT INTO patient (firstname, surname, dateOfBirth, carelevel, roomnumber, show) VALUES ('%s', '%s', '%s', '%s', '%s', '%s')",
-                patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(), patient.getCareLevel(), patient.getRoomnumber(), true);
+        return String.format("INSERT INTO patient (firstname, surname, dateOfBirth, carelevel, roomnumber, show, blockeddate) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', %s)",
+                patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(), patient.getCareLevel(), patient.getRoomnumber(), true, null);
     }
 
     /**
@@ -63,6 +68,11 @@ public class PatientDAO extends DAOimp<Patient> {
      */
     @Override
     protected String getReadAllStatementString() {
+        return "SELECT * FROM patient";
+    }
+
+    @Override
+    protected String getReadAllUnblockedStatementString() {
         return "SELECT * FROM patient WHERE SHOW = TRUE";
     }
 
@@ -93,8 +103,9 @@ public class PatientDAO extends DAOimp<Patient> {
     @Override
     protected String getUpdateStatementString(Patient patient) {
         return String.format("UPDATE patient SET firstname = '%s', surname = '%s', dateOfBirth = '%s', carelevel = '%s', " +
-                "roomnumber = '%s', show = '%s' WHERE pid = %d", patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(),
-                patient.getCareLevel(), patient.getRoomnumber(), patient.Shown(),patient.getPid());
+                "roomnumber = '%s', show = '%s', blockeddate = %s WHERE pid = '%d'", patient.getFirstName(), patient.getSurname(), patient.getDateOfBirth(),
+                patient.getCareLevel(), patient.getRoomnumber(), patient.Shown(),
+                patient.Shown() ? "NULL" : "'" + new SimpleDateFormat("yyyy-MM-dd").format(Calendar.getInstance().getTime()) + "'", patient.getPid());
     }
 
     /**

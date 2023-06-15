@@ -154,7 +154,7 @@ public class AllPatientController {
         this.dao = DAOFactory.getDAOFactory().createPatientDAO();
         List<Patient> allPatients;
         try {
-            allPatients = dao.readAll();
+            allPatients = dao.readAllUnblocked();
             for (Patient p : allPatients) {
                 this.tableviewContent.add(p);
             }
@@ -194,7 +194,6 @@ public class AllPatientController {
                 ActiveTreatment.setShown(false);
                 tDao.update(ActiveTreatment);
             }
-            Statement state = dao.getConn().createStatement();
             this.tableView.getItems().remove(selectedItem);
         } catch (SQLException e) {
             e.printStackTrace();

@@ -119,7 +119,7 @@ public class AllCaregiverController {
         this.dao = DAOFactory.getDAOFactory().createCaregiverDAO();
         List<Caregiver> allCaregivers;
         try {
-            allCaregivers = dao.readAll();
+            allCaregivers = dao.readAllUnblocked();
             for (Caregiver p : allCaregivers) {
                 this.tableviewContent.add(p);
             }

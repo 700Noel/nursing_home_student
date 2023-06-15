@@ -9,6 +9,7 @@ public interface DAO<T> {
     T read(long key) throws SQLException;
 
     List<T> readAll() throws SQLException;
+    List<T> readAllUnblocked() throws SQLException;
 
     void update(T t) throws SQLException;
 
