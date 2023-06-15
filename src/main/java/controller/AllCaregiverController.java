@@ -67,6 +67,13 @@ public class AllCaregiverController {
 
         //Anzeigen der Daten
         this.tableView.setItems(this.tableviewContent);
+
+        try {
+            Statement statement = dao.getConn().createStatement();
+            statement.executeQuery("DELETE FROM caregiver WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -10, CURRENT_DATE);");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
@@ -119,7 +126,7 @@ public class AllCaregiverController {
         this.dao = DAOFactory.getDAOFactory().createCaregiverDAO();
         List<Caregiver> allCaregivers;
         try {
-            allCaregivers = dao.readAll();
+            allCaregivers = dao.readAllUnblocked();
             for (Caregiver p : allCaregivers) {
                 this.tableviewContent.add(p);
             }

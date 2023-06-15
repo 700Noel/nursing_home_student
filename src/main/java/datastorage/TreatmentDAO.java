@@ -6,9 +6,11 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class TreatmentDAO extends DAOimp<Treatment> {
@@ -19,10 +21,10 @@ public class TreatmentDAO extends DAOimp<Treatment> {
 
     @Override
     protected String getCreateStatementString(Treatment treatment) {
-        return String.format("INSERT INTO treatment (pid, cid, treatment_date, begin, end, description, remarks, show) VALUES " +
-                "(%d, '%s', '%s', '%s', '%s', '%s', '%s', '%s')", treatment.getPid(), treatment.getCid(), treatment.getDate(),
+        return String.format("INSERT INTO treatment (pid, cid, treatment_date, begin, end, description, remarks, show, blockeddate) VALUES " +
+                "(%d, '%s', '%s', '%s', '%s', '%s', '%s', '%s', %s)", treatment.getPid(), treatment.getCid(), treatment.getDate(),
                 treatment.getBegin(), treatment.getEnd(), treatment.getDescription(),
-                treatment.getRemarks(), true);
+                treatment.getRemarks(), true, null);
     }
 
     @Override
@@ -43,6 +45,11 @@ public class TreatmentDAO extends DAOimp<Treatment> {
 
     @Override
     protected String getReadAllStatementString() {
+        return "SELECT * FROM treatment";
+    }
+
+    @Override
+    protected String getReadAllUnblockedStatementString() {
         return "SELECT * FROM treatment WHERE show = true";
     }
 
@@ -65,8 +72,9 @@ public class TreatmentDAO extends DAOimp<Treatment> {
     @Override
     protected String getUpdateStatementString(Treatment treatment) {
         return String.format("UPDATE treatment SET pid = %d, cid = %d, treatment_date ='%s', begin = '%s', end = '%s'," +
-                "description = '%s', remarks = '%s', show = '%s' WHERE tid = %d", treatment.getPid(), treatment.getCid(), treatment.getDate(),
+                "description = '%s', remarks = '%s', show = '%s', blockeddate = %s WHERE tid = %d", treatment.getPid(), treatment.getCid(), treatment.getDate(),
                 treatment.getBegin(), treatment.getEnd(), treatment.getDescription(), treatment.getRemarks(), treatment.isShown(),
+                treatment.isShown() ? "NULL" : "'" + new SimpleDateFormat("yyyy-MM-dd").format(Calendar.getInstance().getTime()) + "'",
                 treatment.getTid());
     }
 

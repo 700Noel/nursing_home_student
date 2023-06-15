@@ -18,6 +18,7 @@ import model.Treatment;
 import datastorage.DAOFactory;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,6 +71,13 @@ public class AllTreatmentController {
         this.colDescription.setCellValueFactory(new PropertyValueFactory<Treatment, String>("description"));
         this.tableView.setItems(this.tableviewContent);
         createComboBoxDataPatient();
+
+        try {
+            Statement statement = dao.getConn().createStatement();
+            statement.executeQuery("DELETE FROM treatment WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -10, CURRENT_DATE);");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void readAllAndShowInTableView() {
@@ -78,7 +86,7 @@ public class AllTreatmentController {
         this.dao = DAOFactory.getDAOFactory().createTreatmentDAO();
         List<Treatment> allTreatments;
         try {
-            allTreatments = dao.readAll();
+            allTreatments = dao.readAllUnblocked();
             for (Treatment treatment : allTreatments) {
                 this.tableviewContent.add(treatment);
             }
@@ -90,7 +98,7 @@ public class AllTreatmentController {
     private void createComboBoxDataPatient(){
         PatientDAO dao = DAOFactory.getDAOFactory().createPatientDAO();
         try {
-            patientList = (ArrayList<Patient>) dao.readAll();
+            patientList = (ArrayList<Patient>) dao.readAllUnblocked();
             this.myComboBoxData.add("alle");
             for (Patient patient: patientList) {
                 this.myComboBoxData.add(patient.getSurname());
