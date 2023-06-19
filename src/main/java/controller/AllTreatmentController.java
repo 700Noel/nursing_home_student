@@ -80,7 +80,7 @@ public class AllTreatmentController {
 
         try {
             Statement statement = dao.getConn().createStatement();
-            statement.executeQuery("DELETE FROM treatment WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -10, CURRENT_DATE);");
+            statement.executeQuery("DELETE FROM treatment WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -11, CURRENT_DATE);");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
