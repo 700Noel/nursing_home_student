@@ -76,14 +76,14 @@ public class AllTreatmentController {
         this.colEnd.setCellValueFactory(new PropertyValueFactory<Treatment, String>("end"));
         this.colDescription.setCellValueFactory(new PropertyValueFactory<Treatment, String>("description"));
         this.tableView.setItems(this.tableviewContent);
-        createComboBoxDataPatient();
 
         try {
             Statement statement = dao.getConn().createStatement();
-            statement.executeQuery("DELETE FROM treatment WHERE show = FALSE AND blockeddate <= DATEADD('YEAR', -11, CURRENT_DATE);");
+            statement.executeQuery("DELETE FROM treatment WHERE TREATMENT_DATE <= DATEADD('YEAR', -11, CURRENT_DATE);");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        createComboBoxDataPatient();
     }
 
     /**
