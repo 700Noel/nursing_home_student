@@ -70,11 +70,11 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 
 ## Sperren von Daten und automatisches löschen nach 10 Jahren 
 
-| Test |  |                                                                                                        |
-|------|-------------|--------------------------------------------------------------------------------------------------------|
+| Test |  |                                                                                                                                                                                                  |
+|------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sperren von Daten | erfolgreich |
 | Sperren von personenbezogenen Daten | erfolgreich |
-| Löschen von Daten nach 10 Jahren | erfolgreich | Das Löschen passiert 10 Jahre auf den Tag genau und wird nicht ab Anfang des nächsten Jahres gewährtet |
+| Löschen von Daten nach 10 Jahren | erfolgreich | Das Löschen passiert 10 Jahre auf den Tag genau und wird nicht ab Anfang des nächsten Jahres gewährtet. Des Weiteren werden gelöschene Daten erst angezeigt sobald man die Tabelle refreshed hat |
 
 ## Pfleger in Datenbank erstellt
 
