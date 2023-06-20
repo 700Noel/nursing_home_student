@@ -70,22 +70,22 @@ Wird das Open JDK verwendet, werden JavaFX-Abhängigkeiten nicht importiert. Die
 
 ## Sperren von Daten und automatisches löschen nach 10 Jahren 
 
-| Test |  |
-|------|-------------|
+| Test |  |                                                                                                        |
+|------|-------------|--------------------------------------------------------------------------------------------------------|
 | Sperren von Daten | erfolgreich |
 | Sperren von personenbezogenen Daten | erfolgreich |
-| Löschen von Daten nach 10 Jahren | erfolgreich |
+| Löschen von Daten nach 10 Jahren | erfolgreich | Das Löschen passiert 10 Jahre auf den Tag genau und wird nicht ab Anfang des nächsten Jahres gewährtet |
 
 ## Pfleger in Datenbank erstellt
 
-| Test |  |
-|------|-------------|
+| Test |  |                                                                                                                                                                                                                                                                               |
+|------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pflgertabelle anzeigen | erfolgreich |
 | Speichern eines neuen Pflegers | erfolgreich |
 | Speichern unzureichender Pflege Daten | erfolgreich |
 | Auswählen von Pflegern beim erstellen neuer Behandlungen | erfolgreich |
 | Pfleger können gesperrt werden | erfolgreich |
-| Löschen von Daten nach 10 Jahren | erfolgreich |
+| Löschen von Daten nach 10 Jahren | erfolgreich | Wenn ein Pfleger gelöscht wird, es jedoch noch Behandlungen gibt bei denen er eingetragen ist, gibt es ein error. Dies sollte jedoch meiner Ansicht nach kein Problem sein, da durch die 10 Jahre archivieren, die Behandlungen vor den Pfleger Daten gelöscht werden sollten |
 
 ## Zusatzaufgabe: Daten auslesen
 
